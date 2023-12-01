@@ -38,20 +38,20 @@ const Navbar = () => {
       </button> */}
       <Button
         text="Book Consultation"
-        className=" hidden lg:flex lg:w-[203px] lg:h-[45px] font-montserrat font-medium py-3 px-4 text-lg leading-3 hover:text-primary_color hover:bg-secondary_color"
+        className=" hidden lg:w-52 lg:h-12 py-3 px-7 text-text_color_white bg-primary_color lg:flex items-center justify-center font-outfit font-medium text-lg leading-6 hover:text-primary_color hover:bg-secondary_color"
       />
 
       {/* Menu dropdown */}
 
       {!open && (
-        <ul className="w-full h-[calc(100vh-7rem)] bg-primary_color_white flex flex-col gap-10 items-center justify-center absolute top-28 left-0 right-0 transition-transform transform ease-in-out duration-5000">
+        <ul className="w-full h-screen z-20 bg-primary_color_white flex flex-col gap-10 items-center justify-center absolute top-28 left-0 right-0 transition-transform transform ease-in-out duration-5000">
           {navLinks.map((link) => {
             return (
               <li
                 key={link.name}
-                className=" flex flex-col items-center justify-centerw"
+                className=" flex flex-col items-center justify-center"
               >
-                <p className=" tra hover:border-b-4 border-primary_color flex flex-col font-outfit font-normal text-xl text-text_color_blackII leading-6 cursor-pointer">
+                <p className=" hover:border-b-4 border-primary_color flex flex-col font-outfit font-normal text-xl text-text_color_blackII leading-6 cursor-pointer">
                   {link.name}
                 </p>
                 {/* <Link to={link.url}>{link.name}</Link> */}
@@ -60,7 +60,8 @@ const Navbar = () => {
           })}
           <Button
             text="Book Consultation"
-            className=" hover:text-primary_color hover:bg-secondary_color"
+            //className=" hover:text-primary_color hover:bg-secondary_color"
+            className=" w-52 h-14 lg:hidden text-text_color_white bg-primary_color flex items-center justify-center font-outfit font-medium text-lg leading-6 hover:text-primary_color hover:bg-secondary_color"
           />
         </ul>
       )}

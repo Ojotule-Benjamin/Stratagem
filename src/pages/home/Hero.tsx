@@ -24,6 +24,7 @@ const Hero = () => {
         <Button
           text="Explore Our Case Victories"
           icon={<img src={arrow} alt="icon" />}
+          className=" w-72 md:w-72 mt-5 lg:w-[302px] h-16 font-montserrat font-medium text-text_color_white hover:text-primary_color text-base md:text-lg bg-primary_color hover:bg-text_color_white flex items-center justify-center"
         />
       </div>
     </div>

@@ -42,7 +42,7 @@ const AboutUs = () => {
         <Button
           text="Learn more"
           icon={<img src={arrow} alt="icon" />}
-          className=" lg:w-36 lg:h-12 hover:bg-secondary_color hover:text-primary_color font-montserrat text-sm lg:text-sm font-medium"
+          className=" w-36 lg:w-36 h-12 bg-primary_color text-text_color_white hover:bg-secondary_color hover:text-primary_color font-montserrat text-sm lg:text-sm font-medium"
         />
       </div>
     </div>
