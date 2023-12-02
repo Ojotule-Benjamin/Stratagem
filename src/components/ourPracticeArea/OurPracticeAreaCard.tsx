@@ -6,17 +6,14 @@ type OurPracticeAreaCardProps = {
   desc: string;
 };
 
-const OurPracticeAreaCard: React.FC<OurPracticeAreaCardProps> = ({
-  title,
-  desc,
-}) => {
+const OurPracticeAreaCard: React.FC<OurPracticeAreaCardProps> = (props) => {
   return (
     <div className="basis-80 h-[313px] p-5 bg-[#1A212C] border-none flex flex-col items-center justify-center">
       <h3 className=" font-playFairDisplay font-bold text-xl lg:text-2xl mb-3 text-text_color_white">
-        {title}
+        {props.title}
       </h3>
       <p className=" font-montserrat font-normal text-sm mb-6 text-center text-[#D7D7D7]">
-        {desc}
+        {props.desc}
       </p>
       <div className="w-full border-[0.5px] border-[#3A4553] mb-6"></div>
       <Button
