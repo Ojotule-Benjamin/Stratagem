@@ -10,7 +10,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(true);
   return (
     <div className=" bg-primary_color_white w-full h-28 md:h-[120px] py-0 md:py-1 lg:py-1 px-2 md:px-5 lg:px-9 flex items-center justify-between">
-      <div className=" flex items-center justify-center ">
+      <div className=" flex items-center justify-center cursor-pointer ">
         <img src={logo} alt="logo" className="w-16 h-auto md:w-20 md:h-24 " />
         <div className="flex flex-col items-start justify-center">
           <h1 className=" text-primary_color font-playFairDisplay font-bold text-2xl md:text-3xl lg:text-4xl leading-10">
