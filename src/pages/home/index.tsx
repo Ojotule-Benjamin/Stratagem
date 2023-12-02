@@ -5,6 +5,7 @@ import AboutUs from "../../components/aboutUs/AboutUs";
 import BookConsultation from "./BookConsultation";
 import OurTeam from "../../components/ourTeam/OurTeam";
 import Footer from "../../components/footer/Footer";
+import OurPracticeArea from "../../components/ourPracticeArea/OurPracticeArea";
 
 const index = () => {
   return (
@@ -12,6 +13,7 @@ const index = () => {
       <Navbar />
       <Hero />
       <AboutUs />
+      <OurPracticeArea />
       <BookConsultation />
       <OurTeam />
       <Footer />

@@ -124,3 +124,38 @@ export const teamMembers = [
     twitter: "https://www.google.com",
   },
 ];
+
+export const practiceAreas = [
+  {
+    id: 0,
+    title: "Arbitration & Mediation",
+    desc: `Our adept legal team adeptly guides clients through complex arbitration
+    and mediation processes, leveraging a strong understanding of
+    alternative dispute resolution methods.`,
+  },
+  {
+    id: 1,
+    title: "Intellectual Property",
+    desc: `we are committed to safeguarding your creative works and innovative ideas. Our seasoned legal team specializes in trademarks, copyrights, patents, and trade secrets, offering holistic protection for your intellectual assets.`,
+  },
+  {
+    id: 2,
+    title: "Regulatory Compliance",
+    desc: `Our Regulatory Compliance services are tailored to navigate complex regulations for businesses. Our skilled legal team helps clients grasp and comply with evolving rules, cultivating an accountable culture.`,
+  },
+  {
+    id: 3,
+    title: "Banking & Insurance",
+    desc: `We offer comprehensive Banking & Insurance services, combining legal expertise with financial insight. Our team excels in navigating regulations and providing strategic guidance.`,
+  },
+  {
+    id: 4,
+    title: "Real Estate Practice",
+    desc: `Our Real Estate services focus on expertly navigating property transactions. With a our legal team, we provide guidance on acquisitions, leasing, development, and beyond.`,
+  },
+  {
+    id: 5,
+    title: "General Litigation",
+    desc: `At Stratagem LP, With our proficient legal team, we handle a diverse range of cases, including commercial and civil litigation, as well as alternative dispute resolution.`,
+  },
+];
