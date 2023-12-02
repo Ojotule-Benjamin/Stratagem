@@ -8,6 +8,7 @@ import Footer from "../../components/footer/Footer";
 import OurPracticeArea from "../../components/ourPracticeArea/OurPracticeArea";
 import CaseStudies from "../../components/caseStudies/CaseStudies";
 import Blog from "../../components/blog/Blog";
+import ContactUs from "./ContactUs";
 
 const index = () => {
   return (
@@ -19,6 +20,7 @@ const index = () => {
       <CaseStudies />
       <BookConsultation />
       <OurTeam />
+      <ContactUs />
       <Blog />
       <Footer />
     </div>
