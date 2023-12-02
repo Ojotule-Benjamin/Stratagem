@@ -20,7 +20,7 @@ const CaseStudiesCard: React.FC<CaseStudiesCardProps> = (props) => {
         alt="case studie"
         className=" w-full h-[400px] lg:h-[540px] object-contain md:object-cover"
       />
-      <div className=" mt-0 md:mt-3 flex flex-col items-start justify-start gap-5 lg:gap-9">
+      <div className=" mt-0 md:mt-3 flex flex-col items-start justify-start gap-5 lg:gap-7">
         <h2 className=" font-playFairDisplay font-semibold text-2xl lg:text-3xl text-text_color">
           {props.title}
         </h2>
