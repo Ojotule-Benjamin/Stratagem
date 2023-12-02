@@ -6,6 +6,7 @@ import BookConsultation from "./BookConsultation";
 import OurTeam from "../../components/ourTeam/OurTeam";
 import Footer from "../../components/footer/Footer";
 import OurPracticeArea from "../../components/ourPracticeArea/OurPracticeArea";
+import CaseStudies from "../../components/caseStudies/CaseStudies";
 
 const index = () => {
   return (
@@ -14,6 +15,7 @@ const index = () => {
       <Hero />
       <AboutUs />
       <OurPracticeArea />
+      <CaseStudies />
       <BookConsultation />
       <OurTeam />
       <Footer />

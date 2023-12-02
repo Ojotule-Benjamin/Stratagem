@@ -5,7 +5,8 @@ import team_member_4 from "../assets/svgs/team_member4.svg";
 import team_member_5 from "../assets/svgs/team_member5.svg";
 import team_member_6 from "../assets/svgs/team_member6.svg";
 import team_member_7 from "../assets/svgs/team_member7.svg";
-// import team_member_8 from "../assets/svgs/team_member8.svg";
+import caseStudies1 from "../assets/img/caseStudies1.png";
+import caseStudies2 from "../assets/img/caseStudies2.png";
 
 export const navLinks = [
   {
@@ -157,5 +158,126 @@ export const practiceAreas = [
     id: 5,
     title: "General Litigation",
     desc: `At Stratagem LP, With our proficient legal team, we handle a diverse range of cases, including commercial and civil litigation, as well as alternative dispute resolution.`,
+  },
+];
+
+export const caseStudies = [
+  {
+    id: 0,
+    img: caseStudies1,
+    title: `The Case of William Accused Corruption of Money at Gtb Bank`,
+    case: {
+      aboutTheCase: `Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. 
+      Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. Proin ac a cursus praesent. 
+      Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
+      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
+      Dolor elit nunc et purus quam amet laoreet eu risus.
+      Cum mattis mollis odio gravida adipiscing. 
+      Facilisis scelerisque non lacinia tincidunt faucibus tortor vel. 
+      Erat risus etiam quam pretium ornare. Semper orci arcu pulvinar adipiscing pretium. 
+      Erat facilisis dis arcu senectus sit mi fermentum eu aliquam. 
+      Felis neque posuere pharetra porttitor lacinia proin pretium. 
+      Et et pharetra tincidunt vel egestas risus sed mollis adipiscing. 
+      Lobortis risus mauris vitae pellentesque lobortis sapien. 
+      Mi convallis leo nisl pharetra quam arcu blandit. Metus nisl volutpat ut sed sit sit est. `,
+      clientsNeed: `Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. 
+      Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. 
+      Proin ac a cursus praesent. Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
+      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
+      Dolor elit nunc et purus quam amet laoreet eu risus. Cum mattis mollis odio gravida adipiscing. 
+      Facilisis scelerisque non lacinia tincidunt faucibus tortor vel. 
+      Erat risus etiam quam pretium ornare. Semper orci arcu pulvinar adipiscing pretium. 
+      Erat facilisis dis arcu senectus sit mi fermentum eu aliquam. 
+      Felis neque posuere pharetra porttitor lacinia proin pretium. 
+      Et et pharetra tincidunt vel egestas risus sed mollis adipiscing. 
+      Lobortis risus mauris vitae pellentesque lobortis sapien. 
+      Mi convallis leo nisl pharetra quam arcu blandit. Metus nisl volutpat ut sed sit sit est. `,
+      challenges: `Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. 
+      Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. 
+      Proin ac a cursus praesent. Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
+      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
+      Dolor elit nunc et purus quam amet laoreet eu risus.
+      Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. 
+      Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. Proin ac a cursus praesent. 
+      Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
+      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
+      Dolor elit nunc et purus quam amet laoreet eu risus.`,
+      howWeWon: `Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. 
+      Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. 
+      Proin ac a cursus praesent. Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
+      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
+      Dolor elit nunc et purus quam amet laoreet eu risus.Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. Proin ac a cursus praesent.`,
+    },
+  },
+  {
+    id: 1,
+    img: caseStudies2,
+    title: `The Case of William Accused Corruption of Money at Gtb Bank`,
+    case: {
+      aboutTheCase: `Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. 
+      Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. Proin ac a cursus praesent. 
+      Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
+      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
+      Dolor elit nunc et purus quam amet laoreet eu risus.
+      Cum mattis mollis odio gravida adipiscing. 
+      Facilisis scelerisque non lacinia tincidunt faucibus tortor vel. 
+      Erat risus etiam quam pretium ornare. Semper orci arcu pulvinar adipiscing pretium. 
+      Erat facilisis dis arcu senectus sit mi fermentum eu aliquam. 
+      Felis neque posuere pharetra porttitor lacinia proin pretium. 
+      Et et pharetra tincidunt vel egestas risus sed mollis adipiscing. 
+      Lobortis risus mauris vitae pellentesque lobortis sapien. 
+      Mi convallis leo nisl pharetra quam arcu blandit. Metus nisl volutpat ut sed sit sit est. `,
+      clientsNeed: `Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. 
+      Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. 
+      Proin ac a cursus praesent. Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
+      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
+      Dolor elit nunc et purus quam amet laoreet eu risus. Cum mattis mollis odio gravida adipiscing. 
+      Facilisis scelerisque non lacinia tincidunt faucibus tortor vel. 
+      Erat risus etiam quam pretium ornare. Semper orci arcu pulvinar adipiscing pretium. 
+      Erat facilisis dis arcu senectus sit mi fermentum eu aliquam. 
+      Felis neque posuere pharetra porttitor lacinia proin pretium. 
+      Et et pharetra tincidunt vel egestas risus sed mollis adipiscing. 
+      Lobortis risus mauris vitae pellentesque lobortis sapien. 
+      Mi convallis leo nisl pharetra quam arcu blandit. Metus nisl volutpat ut sed sit sit est. `,
+      challenges: `Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. 
+      Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. 
+      Proin ac a cursus praesent. Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
+      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
+      Dolor elit nunc et purus quam amet laoreet eu risus.
+      Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. 
+      Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. Proin ac a cursus praesent. 
+      Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
+      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
+      Dolor elit nunc et purus quam amet laoreet eu risus.`,
+      howWeWon: `Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. 
+      Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. 
+      Proin ac a cursus praesent. Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
+      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
+      Dolor elit nunc et purus quam amet laoreet eu risus.Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. Proin ac a cursus praesent.`,
+    },
   },
 ];
