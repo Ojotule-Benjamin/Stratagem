@@ -6,7 +6,7 @@ const OurTeam = () => {
   return (
     <div className=" bg-text_color_white w-full h-auto px-5 lg:px-[50px] pt-10 lg:pt-20 pb-14 lg:pb-24">
       <div className="flex flex-col items-center justify-start">
-        <h6 className=" font-montserrat font-bold text-lg text-center text-[#3A3A38] pb-1 lg:pb-4">
+        <h6 className=" font-montserrat font-normal text-lg text-center text-[#3A3A38]">
           Meet Our Team
         </h6>
         <h3 className=" font-playFairDisplay font-bold capitalize text-[#1E2E45] text-2xl lg:text-4xl text-center px-0 md:px-40 lg:px-80 ">

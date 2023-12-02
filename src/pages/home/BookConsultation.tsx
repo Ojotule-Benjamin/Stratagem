@@ -136,7 +136,10 @@ const BookConsultation = () => {
               className=" w-full h-36 rounded-md py-4 px-5 outline-none font-montserrat font-bold text-sm"
               placeholder="Message"
             ></textarea>
-            <Button text="Book Consultation" className=" mt-5" />
+            <Button
+              text="Book Consultation"
+              className=" w-64 h-14 font-montserrat font-bold text-base text-text_color_white hover:text-secondary_color bg-primary_color mt-5"
+            />
           </div>
         </form>
       </div>

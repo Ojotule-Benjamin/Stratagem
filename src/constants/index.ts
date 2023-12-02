@@ -7,6 +7,9 @@ import team_member_6 from "../assets/svgs/team_member6.svg";
 import team_member_7 from "../assets/svgs/team_member7.svg";
 import caseStudies1 from "../assets/img/caseStudies1.png";
 import caseStudies2 from "../assets/img/caseStudies2.png";
+import blogImg1 from "../assets/img/blogImg1.png";
+import blogImg2 from "../assets/img/blogImg2.png";
+import blogImg3 from "../assets/img/blogImg3.png";
 
 export const navLinks = [
   {
@@ -278,6 +281,81 @@ export const caseStudies = [
       Dolor elit nunc et purus quam amet laoreet eu risus.Lorem ipsum dolor sit amet consectetur. 
       Commodo pulvinar molestie pellentesque urna libero velit porta. Velit pellentesque hac gravida pellentesque est semper. 
       Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. Proin ac a cursus praesent.`,
+    },
+  },
+];
+
+export const blogPosts = [
+  {
+    id: 0,
+    img: blogImg1,
+    title: `How Can your Start Up hire a quality lawyer?`,
+    article: `Starting a new venture can be exciting and challenging. It is important that you hire a lawyer too as all companies, irrespective of their size needs legal representation. When you start your business, you will find that you need legal guidance at every step and at different phases of the business life, from the initial incorporation to raising capital for expansion to hiring employees, you need the services of a good lawyer. It goes without saying that most businessmen cannot handle the legal matters in a way that professional and competent lawyers can.
+    You need to find a law office so that you can find the best representation that will be best for your business needs and is also affordable. One of the important thing that you need to consider is that the lawyer you hire is specialized in the industry you are starting a business. The lawyer will have clear idea about the industry and will know about the legal obstacles that you can face. The lawyer will be able to help your startup by covering all the legal tracks right from the start, so that you can grow your business without having to worry about any legal loopholes that may threaten dream venture.
+    We can also help you with lawsuits against negligent parties for different issues such as inadequate security, wrong hiring practices and also lawsuits against schools, companies, nursing homes, employers, hotels, apartment complexes, say care centres and more. You can get quotation from several lawyers and choose the one that best fits your budget. But ensure that you choose a competent lawyer by interviewing them before hiring. bRemember that an efficient lawyer can make a big difference to your case, so it is important that you spend some time in finding the best lawyer to seek advice from for your legal matters.`,
+    comments: {
+      user: `Benjamin`,
+      comment: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula nibh, interdum non enim sit amet, iaculis aliquet nunc.`,
+    },
+  },
+  {
+    id: 1,
+    img: blogImg2,
+    title: `Legal Tips: Navigating Legal Matters Effectively.`,
+    article: `Starting a new venture can be exciting and challenging. It is important that you hire a lawyer too as all companies, irrespective of their size needs legal representation. When you start your business, you will find that you need legal guidance at every step and at different phases of the business life, from the initial incorporation to raising capital for expansion to hiring employees, you need the services of a good lawyer. It goes without saying that most businessmen cannot handle the legal matters in a way that professional and competent lawyers can.
+    You need to find a law office so that you can find the best representation that will be best for your business needs and is also affordable. One of the important thing that you need to consider is that the lawyer you hire is specialized in the industry you are starting a business. The lawyer will have clear idea about the industry and will know about the legal obstacles that you can face. The lawyer will be able to help your startup by covering all the legal tracks right from the start, so that you can grow your business without having to worry about any legal loopholes that may threaten dream venture.
+    We can also help you with lawsuits against negligent parties for different issues such as inadequate security, wrong hiring practices and also lawsuits against schools, companies, nursing homes, employers, hotels, apartment complexes, say care centres and more. You can get quotation from several lawyers and choose the one that best fits your budget. But ensure that you choose a competent lawyer by interviewing them before hiring. bRemember that an efficient lawyer can make a big difference to your case, so it is important that you spend some time in finding the best lawyer to seek advice from for your legal matters.`,
+    comments: {
+      user: `Smith`,
+      comment: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula nibh, interdum non enim sit amet, iaculis aliquet nunc.`,
+    },
+  },
+  {
+    id: 3,
+    img: blogImg3,
+    title: ` 6 Strategies to Avoid High Legal Expenses.`,
+    article: `Starting a new venture can be exciting and challenging. It is important that you hire a lawyer too as all companies, irrespective of their size needs legal representation. When you start your business, you will find that you need legal guidance at every step and at different phases of the business life, from the initial incorporation to raising capital for expansion to hiring employees, you need the services of a good lawyer. It goes without saying that most businessmen cannot handle the legal matters in a way that professional and competent lawyers can.
+    You need to find a law office so that you can find the best representation that will be best for your business needs and is also affordable. One of the important thing that you need to consider is that the lawyer you hire is specialized in the industry you are starting a business. The lawyer will have clear idea about the industry and will know about the legal obstacles that you can face. The lawyer will be able to help your startup by covering all the legal tracks right from the start, so that you can grow your business without having to worry about any legal loopholes that may threaten dream venture.
+    We can also help you with lawsuits against negligent parties for different issues such as inadequate security, wrong hiring practices and also lawsuits against schools, companies, nursing homes, employers, hotels, apartment complexes, say care centres and more. You can get quotation from several lawyers and choose the one that best fits your budget. But ensure that you choose a competent lawyer by interviewing them before hiring. bRemember that an efficient lawyer can make a big difference to your case, so it is important that you spend some time in finding the best lawyer to seek advice from for your legal matters.`,
+    comments: {
+      user: `Mercy`,
+      comment: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula nibh, interdum non enim sit amet, iaculis aliquet nunc.`,
+    },
+  },
+  {
+    id: 4,
+    img: blogImg3,
+    title: ` 6 Strategies to Avoid High Legal Expenses.`,
+    article: `Starting a new venture can be exciting and challenging. It is important that you hire a lawyer too as all companies, irrespective of their size needs legal representation. When you start your business, you will find that you need legal guidance at every step and at different phases of the business life, from the initial incorporation to raising capital for expansion to hiring employees, you need the services of a good lawyer. It goes without saying that most businessmen cannot handle the legal matters in a way that professional and competent lawyers can.
+    You need to find a law office so that you can find the best representation that will be best for your business needs and is also affordable. One of the important thing that you need to consider is that the lawyer you hire is specialized in the industry you are starting a business. The lawyer will have clear idea about the industry and will know about the legal obstacles that you can face. The lawyer will be able to help your startup by covering all the legal tracks right from the start, so that you can grow your business without having to worry about any legal loopholes that may threaten dream venture.
+    We can also help you with lawsuits against negligent parties for different issues such as inadequate security, wrong hiring practices and also lawsuits against schools, companies, nursing homes, employers, hotels, apartment complexes, say care centres and more. You can get quotation from several lawyers and choose the one that best fits your budget. But ensure that you choose a competent lawyer by interviewing them before hiring. bRemember that an efficient lawyer can make a big difference to your case, so it is important that you spend some time in finding the best lawyer to seek advice from for your legal matters.`,
+    comments: {
+      user: `Mercy`,
+      comment: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula nibh, interdum non enim sit amet, iaculis aliquet nunc.`,
+    },
+  },
+  {
+    id: 5,
+    img: blogImg3,
+    title: ` 6 Strategies to Avoid High Legal Expenses.`,
+    article: `Starting a new venture can be exciting and challenging. It is important that you hire a lawyer too as all companies, irrespective of their size needs legal representation. When you start your business, you will find that you need legal guidance at every step and at different phases of the business life, from the initial incorporation to raising capital for expansion to hiring employees, you need the services of a good lawyer. It goes without saying that most businessmen cannot handle the legal matters in a way that professional and competent lawyers can.
+    You need to find a law office so that you can find the best representation that will be best for your business needs and is also affordable. One of the important thing that you need to consider is that the lawyer you hire is specialized in the industry you are starting a business. The lawyer will have clear idea about the industry and will know about the legal obstacles that you can face. The lawyer will be able to help your startup by covering all the legal tracks right from the start, so that you can grow your business without having to worry about any legal loopholes that may threaten dream venture.
+    We can also help you with lawsuits against negligent parties for different issues such as inadequate security, wrong hiring practices and also lawsuits against schools, companies, nursing homes, employers, hotels, apartment complexes, say care centres and more. You can get quotation from several lawyers and choose the one that best fits your budget. But ensure that you choose a competent lawyer by interviewing them before hiring. bRemember that an efficient lawyer can make a big difference to your case, so it is important that you spend some time in finding the best lawyer to seek advice from for your legal matters.`,
+    comments: {
+      user: `Mercy`,
+      comment: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula nibh, interdum non enim sit amet, iaculis aliquet nunc.`,
+    },
+  },
+  {
+    id: 6,
+    img: blogImg3,
+    title: ` 6 Strategies to Avoid High Legal Expenses.`,
+    article: `Starting a new venture can be exciting and challenging. It is important that you hire a lawyer too as all companies, irrespective of their size needs legal representation. When you start your business, you will find that you need legal guidance at every step and at different phases of the business life, from the initial incorporation to raising capital for expansion to hiring employees, you need the services of a good lawyer. It goes without saying that most businessmen cannot handle the legal matters in a way that professional and competent lawyers can.
+    You need to find a law office so that you can find the best representation that will be best for your business needs and is also affordable. One of the important thing that you need to consider is that the lawyer you hire is specialized in the industry you are starting a business. The lawyer will have clear idea about the industry and will know about the legal obstacles that you can face. The lawyer will be able to help your startup by covering all the legal tracks right from the start, so that you can grow your business without having to worry about any legal loopholes that may threaten dream venture.
+    We can also help you with lawsuits against negligent parties for different issues such as inadequate security, wrong hiring practices and also lawsuits against schools, companies, nursing homes, employers, hotels, apartment complexes, say care centres and more. You can get quotation from several lawyers and choose the one that best fits your budget. But ensure that you choose a competent lawyer by interviewing them before hiring. bRemember that an efficient lawyer can make a big difference to your case, so it is important that you spend some time in finding the best lawyer to seek advice from for your legal matters.`,
+    comments: {
+      user: `Mercy`,
+      comment: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula nibh, interdum non enim sit amet, iaculis aliquet nunc.`,
     },
   },
 ];
