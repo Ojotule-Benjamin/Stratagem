@@ -3,7 +3,8 @@ import Blog from "../../components/blog/Blog";
 
 const index = () => {
   return (
-    <div>
+    <div className=" pt-16 pb-28">
+      <Blog />
       <Blog />
     </div>
   );

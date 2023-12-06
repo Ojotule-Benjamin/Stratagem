@@ -22,7 +22,7 @@ const BlogPostCard: React.FC<blogPostCardProps> = ({
         className=" w-full h-full lg:h-[334px] object-contain md:object-cover"
       />
       <div className=" mt-2 md:mt-3 flex flex-col items-start justify-start gap-5 lg:gap-6 ">
-        <h2 className=" h-16 font-playFairDisplay font-semibold text-lg lg:text-2xl text-text_color line-clamp-4">
+        <h2 className=" h-14 md:h-16 font-playFairDisplay font-semibold text-lg md:text-xl lg:text-2xl text-text_color line-clamp-4">
           {title}
           <span className=" font-medium text-sm text-primary_color ml-5 lg:ml-5">
             Legal Advice
