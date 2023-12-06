@@ -25,8 +25,8 @@ export const navLinks = [
   },
   {
     id: 2,
-    name: "Practice Area",
-    url: "/practice-area",
+    name: "Practice Areas",
+    url: "/practice-areas",
   },
   {
     id: 3,
@@ -35,8 +35,8 @@ export const navLinks = [
   },
   {
     id: 4,
-    name: "Attorneys",
-    url: "/attorneys",
+    name: "Contact",
+    url: "/contact",
   },
   {
     id: 5,
