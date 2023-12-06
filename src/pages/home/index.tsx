@@ -14,6 +14,7 @@ const index = () => {
       <Hero />
       <AboutUs />
       <OurPracticeArea />
+      {/* case studies */}
       <div className=" w-full h-auto bg-text_color_white mt-10 lg:mt-20 mb-6 lg:mb-24 flex flex-col items-center justify-center">
         <h6 className=" font-montserrat font-normal text-base lg:text-lg text-[#382E3A]">
           Case Studies

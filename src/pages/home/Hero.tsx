@@ -1,8 +1,11 @@
 import React from "react";
 import arrow from "../../assets/svgs/arrow.svg";
 import Button from "../../components/Button";
+import { Link } from "react-router-dom";
+import { REGULAR_PATHS } from "../../route/paths";
 
 const Hero = () => {
+  const { CASE_STUDIES } = REGULAR_PATHS;
   return (
     <div className=" w-full h-[calc(100vh-7rem)] md:h-[calc(100vh-120px)] flex flex-col items-center justify-center bg-hero-lg bg-cover bg-center bg-secondary_color bg-blend-screen ">
       <div className=" w-full h-auto flex flex-col items-center justify-center gap-4 md:gap-5 lg:gap-5">
@@ -21,11 +24,13 @@ const Hero = () => {
           are prepared to advocate for your rights and safeguard your interests.
         </p>
 
-        <Button
-          text="Explore Our Case Victories"
-          icon={<img src={arrow} alt="icon" />}
-          className=" w-72 md:w-72 mt-5 lg:w-[302px] h-16 font-montserrat font-medium text-text_color_white hover:text-primary_color text-base md:text-lg bg-primary_color hover:bg-text_color_white flex items-center justify-center"
-        />
+        <Link to={CASE_STUDIES}>
+          <Button
+            text="Explore Our Case Victories"
+            icon={<img src={arrow} alt="icon" />}
+            className=" w-72 md:w-72 mt-5 lg:w-[302px] h-16 font-montserrat font-medium text-text_color_white hover:text-primary_color text-base md:text-lg bg-primary_color hover:bg-text_color_white flex items-center justify-center"
+          />
+        </Link>
       </div>
     </div>
   );
