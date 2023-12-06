@@ -1,9 +1,12 @@
 import React from "react";
+import CustomHero from "../../components/CustomHero";
+import WelcomeMessage from "./WelcomeMessage";
 
 const index = () => {
   return (
     <div>
-      <h1>Welcome to our firm</h1>
+      <CustomHero />
+      <WelcomeMessage />
     </div>
   );
 };
