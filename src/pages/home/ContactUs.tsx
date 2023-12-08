@@ -1,7 +1,10 @@
 import React from "react";
 import Button from "../../components/Button";
+import { Link } from "react-router-dom";
+import { REGULAR_PATHS } from "../../route/paths";
 
 const ContactUs = () => {
+  const { CONTACT } = REGULAR_PATHS;
   return (
     <div className=" bg-secondary_color w-full h-auto px-4 md:px-24 lg:px-36 py-20 lg:py-14 flex flex-col lg:flex-row items-center justify-center gap-10">
       {/* left */}
@@ -15,10 +18,12 @@ const ContactUs = () => {
           in some form, by injected oir which don't look even slightly
           believable.
         </p>
-        <Button
-          text="Contact Us"
-          className=" w-64 h-14 font-montserrat font-medium text-base text-secondary_color hover:text-text_color_white bg-primary_color"
-        />
+        <Link to={CONTACT}>
+          <Button
+            text="Contact Us"
+            className=" w-64 h-14 font-montserrat font-medium text-base text-secondary_color hover:text-text_color_white bg-primary_color"
+          />
+        </Link>
       </div>
       {/* right */}
       <div className=" w-full lg:w-1/2 h-[413px] px-3 md:px-20 lg:pl-[71px] lg:pr-32 flex flex-col items-center justify-center border-8 border-r-0">

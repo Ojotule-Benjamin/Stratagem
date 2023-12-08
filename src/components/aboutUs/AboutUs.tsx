@@ -2,8 +2,11 @@ import React from "react";
 import Button from "../Button";
 import arrow from "../../assets/svgs/arrow.svg";
 import Dedication from "../Dedication";
+import { REGULAR_PATHS } from "../../route/paths";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
+  const { OUR_FIRM } = REGULAR_PATHS;
   return (
     <div className=" w-full h-full bg-text_color_white p-8 md:p-12 lg:p-16 flex flex-col lg:flex-row items-center justify-center gap-5">
       {/* left */}
@@ -39,11 +42,13 @@ const AboutUs = () => {
           dedicated to making our firm the ultimate workplace, where talent
           flourishes.
         </p>
-        <Button
-          text="Learn more"
-          icon={<img src={arrow} alt="icon" />}
-          className=" w-36 lg:w-36 h-12 bg-primary_color text-text_color_white hover:bg-secondary_color hover:text-primary_color font-montserrat text-sm lg:text-sm font-medium"
-        />
+        <Link to={OUR_FIRM}>
+          <Button
+            text="Learn more"
+            icon={<img src={arrow} alt="icon" />}
+            className=" w-36 lg:w-36 h-12 bg-primary_color text-text_color_white hover:bg-secondary_color hover:text-primary_color font-montserrat text-sm lg:text-sm font-medium"
+          />
+        </Link>
       </div>
     </div>
   );

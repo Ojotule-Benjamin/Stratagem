@@ -1,5 +1,7 @@
 import React from "react";
 import Button from "../Button";
+import { REGULAR_PATHS } from "../../route/paths";
+import { Link } from "react-router-dom";
 
 type CaseStudiesCardProps = {
   img: string;
@@ -13,6 +15,7 @@ type CaseStudiesCardProps = {
 };
 
 const CaseStudiesCard: React.FC<CaseStudiesCardProps> = (props) => {
+  const { CASE_STUDY } = REGULAR_PATHS;
   return (
     <div className="w-full lg:w-[523px] h-auto px-6 md:px-24 lg:px-0">
       <img
@@ -27,10 +30,12 @@ const CaseStudiesCard: React.FC<CaseStudiesCardProps> = (props) => {
         <p className="font-montserrat font-normal text-sm text-[#382E3A] overflow-hidden line-clamp-3">
           {props.case.aboutTheCase}
         </p>
-        <Button
-          text="See Details"
-          className=" w-[183px] h-10 font-outfit font-medium text-sm bg-secondary_color text-text_color_white hover:bg-primary_color hover:text-secondary_color"
-        />
+        <Link to={CASE_STUDY}>
+          <Button
+            text="See Details"
+            className=" w-[183px] h-10 font-outfit font-medium text-sm bg-secondary_color text-text_color_white hover:bg-primary_color hover:text-secondary_color"
+          />
+        </Link>
       </div>
     </div>
   );

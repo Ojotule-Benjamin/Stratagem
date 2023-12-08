@@ -1,5 +1,7 @@
 import React from "react";
 import Button from "../Button";
+import { Link } from "react-router-dom";
+import { REGULAR_PATHS } from "../../route/paths";
 
 type OurPracticeAreaCardProps = {
   title: string;
@@ -7,6 +9,7 @@ type OurPracticeAreaCardProps = {
 };
 
 const OurPracticeAreaCard: React.FC<OurPracticeAreaCardProps> = (props) => {
+  const { PRACTICE_AREA } = REGULAR_PATHS;
   return (
     <div className="basis-80 h-[313px] p-5 bg-[#1A212C] border-none flex flex-col items-center justify-center">
       <h3 className=" font-playFairDisplay font-bold text-xl lg:text-2xl mb-3 text-text_color_white">
@@ -16,10 +19,12 @@ const OurPracticeAreaCard: React.FC<OurPracticeAreaCardProps> = (props) => {
         {props.desc}
       </p>
       <div className="w-full border-[0.5px] border-[#3A4553] mb-6"></div>
-      <Button
-        text="Learn More"
-        className=" w-[133px] h-11 font-outfit font-medium text-sm bg-secondary_color text-text_color_white hover:bg-primary_color hover:text-secondary_color"
-      />
+      <Link to={PRACTICE_AREA}>
+        <Button
+          text="Learn More"
+          className=" w-[133px] h-11 font-outfit font-medium text-sm bg-secondary_color text-text_color_white hover:bg-primary_color hover:text-secondary_color"
+        />
+      </Link>
     </div>
   );
 };
