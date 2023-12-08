@@ -1,14 +1,19 @@
 import React from "react";
 import { REGULAR_PATHS } from "./paths";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
-import Home from "../pages/home/index";
-import OurFirm from "../pages/ourFirm/index";
-import PracticeArea from "../pages/practiceArea/index";
-import CaseStudies from "../pages/caseStudies/index";
-import Contact from "../pages/contact/index";
-import Blog from "../pages/blog/index";
 import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
+import Home from "../pages/home/index";
+import OurFirm from "../pages/ourFirm/index";
+import PracticeAreas from "../pages/practiceAreas/index";
+import PracticeArea from "../pages/practiceArea/index";
+import CaseStudies from "../pages/caseStudies/index";
+import CaseStudy from "../pages/caseStudy/index";
+import Contact from "../pages/contact/index";
+import Blog from "../pages/blog/index";
+import NotFound from "../pages/notFound/index";
+
+import BlogPost from "../pages/blogPost/index";
 
 export const AppRouter = () => {
   //paths
@@ -19,9 +24,9 @@ export const AppRouter = () => {
     CASE_STUDIES,
     CONTACT,
     BLOG,
-    // PRACTICE_AREA,
-    // CASE_STUDY,
-    // BLOG_POST,
+    PRACTICE_AREA,
+    CASE_STUDY,
+    BLOG_POST,
   } = REGULAR_PATHS;
 
   //LAYOUT
@@ -51,11 +56,19 @@ export const AppRouter = () => {
         },
         {
           path: PRACTICE_AREAS,
+          element: <PracticeAreas />,
+        },
+        {
+          path: PRACTICE_AREA,
           element: <PracticeArea />,
         },
         {
           path: CASE_STUDIES,
           element: <CaseStudies />,
+        },
+        {
+          path: CASE_STUDY,
+          element: <CaseStudy />,
         },
         {
           path: CONTACT,
@@ -64,6 +77,14 @@ export const AppRouter = () => {
         {
           path: BLOG,
           element: <Blog />,
+        },
+        {
+          path: BLOG_POST,
+          element: <BlogPost />,
+        },
+        {
+          path: "*",
+          element: <NotFound />,
         },
       ],
     },

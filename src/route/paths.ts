@@ -6,8 +6,9 @@ export enum REGULAR_PATHS {
   CONTACT = "/contact",
   BLOG = "/blog",
 
-  //under
-  PRACTICE_AREA = `/practice-areas/practice-area/:data`,
-  CASE_STUDY = `/case-studies/case-study/:data`,
-  BLOG_POST = `/blog/blog-post/:data`,
+  //sub pages
+  PRACTICE_AREA = `/practice-areas/practice-area/`,
+  CASE_STUDY = `/case-studies/case-study/`,
+  BLOG_POST = `/blog/blog-post/`,
+  //BLOG_POST = `/blog/blog-post/:data`,
 }
