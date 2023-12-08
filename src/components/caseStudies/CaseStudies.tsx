@@ -1,18 +1,16 @@
-import React from "react";
-import CaseStudiesCard from "./CaseStudiesCard";
-import { caseStudies } from "../../constants";
+import React, { ReactNode } from "react";
 
-const CaseStudies = () => {
+interface CaseStudiesProps {
+  className?: string;
+  children: ReactNode;
+}
+
+const CaseStudies: React.FC<CaseStudiesProps> = ({ children, className }) => {
   return (
-    <div className="w-full bg-text_color_white flex items-center justify-center flex-wrap basis-1 gap-10 md:gap-16 mb-7">
-      {caseStudies.map((caseStudy) => (
-        <CaseStudiesCard
-          key={caseStudy.id}
-          title={caseStudy.title}
-          img={caseStudy.img}
-          case={caseStudy.case}
-        />
-      ))}
+    <div
+      className={`w-full bg-text_color_white flex items-center justify-center flex-wrap basis-1 gap-10 md:gap-16 mb-7 ${className}`}
+    >
+      {children}
     </div>
   );
 };

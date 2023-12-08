@@ -1,19 +1,16 @@
-import React from "react";
-import BlogPostCard from "./BlogPostCard";
-import { blogPosts } from "../../constants";
+import React, { ReactNode } from "react";
 
-const Blog = () => {
+interface BlogProps {
+  className?: string;
+  children: ReactNode;
+}
+
+const Blog: React.FC<BlogProps> = ({ children, className }) => {
   return (
-    <div className="w-full flex items-center justify-center flex-wrap basis-1 gap-14 md:gap-6 mb-7">
-      {blogPosts.slice(0, 3).map((blogPost) => (
-        <BlogPostCard
-          key={blogPost.id}
-          id={blogPost.id}
-          title={blogPost.title}
-          img={blogPost.img}
-          article={blogPost.article}
-        />
-      ))}
+    <div
+      className={`w-full flex items-center justify-center flex-wrap basis-1 gap-14 md:gap-7 ${className}`}
+    >
+      {children}
     </div>
   );
 };

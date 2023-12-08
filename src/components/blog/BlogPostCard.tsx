@@ -1,5 +1,7 @@
 import React from "react";
 import Button from "../Button";
+import { Link } from "react-router-dom";
+import { REGULAR_PATHS } from "../../route/paths";
 
 type blogPostCardProps = {
   id: number;
@@ -14,8 +16,9 @@ const BlogPostCard: React.FC<blogPostCardProps> = ({
   title,
   article,
 }) => {
+  const { BLOG_POST } = REGULAR_PATHS;
   return (
-    <div className="w-full lg:w-96 h-auto px-6 md:px-24 lg:px-0 ">
+    <div className="w-full lg:w-96 h-auto px-6 md:px-24 lg:px-0 pb-7 md:pb-14">
       <img
         src={img}
         alt="case studies"
@@ -36,10 +39,12 @@ const BlogPostCard: React.FC<blogPostCardProps> = ({
         <p className="font-montserrat font-normal text-sm text-[#382E3A] overflow-hidden line-clamp-4">
           {article}
         </p>
-        <Button
-          text="Read More"
-          className=" w-[183px] h-10 font-outfit font-medium text-sm bg-secondary_color text-text_color_white hover:bg-primary_color hover:text-secondary_color"
-        />
+        <Link to={BLOG_POST}>
+          <Button
+            text="Read More"
+            className=" w-[183px] h-10 font-outfit font-medium text-sm bg-secondary_color text-text_color_white hover:bg-primary_color hover:text-secondary_color"
+          />
+        </Link>
       </div>
     </div>
   );

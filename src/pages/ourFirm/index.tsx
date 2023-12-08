@@ -5,7 +5,7 @@ import WelcomeMessage from "./WelcomeMessage";
 const index = () => {
   return (
     <div>
-      <CustomHero />
+      <CustomHero title="About The Firm" />
       <WelcomeMessage />
     </div>
   );

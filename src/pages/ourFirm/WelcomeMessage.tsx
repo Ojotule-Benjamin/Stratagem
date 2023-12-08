@@ -3,7 +3,7 @@ import team_member_1 from "../../assets/svgs/team_member1.svg";
 
 const WelcomeMessage = () => {
   return (
-    <div className=" w-full h-full bg-text_color_white p-8 md:p-12 lg:p-16 flex flex-col lg:flex-row items-center justify-center gap-5 lg:gap-14">
+    <div className="my-0 w-full h-full bg-text_color_white p-8 md:p-12 lg:p-16 flex flex-col lg:flex-row items-center justify-center gap-5 lg:gap-14">
       {/* left */}
       <div className=" w-full h-full lg:w-1/2 px-0 md:px-20 lg:px-0 flex flex-col items-center justify-center lg:items-start lg:justify-start relative">
         <div className=" w-80 h-80 lg:w-[540px] lg:h-[553px] border-8  border-b-0 lg:border-[13px] lg:border-r-0 border-secondary_color"></div>

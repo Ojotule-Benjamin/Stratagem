@@ -4,9 +4,13 @@ import AboutUs from "../../components/aboutUs/AboutUs";
 import BookConsultation from "./BookConsultation";
 import OurTeam from "../../components/ourTeam/OurTeam";
 import OurPracticeArea from "../../components/ourPracticeArea/OurPracticeArea";
-import CaseStudies from "../../components/caseStudies/CaseStudies";
+import CustomHeader from "../../components/CustomHeader";
+import { blogPosts } from "../../constants";
 import Blog from "../../components/blog/Blog";
 import ContactUs from "./ContactUs";
+import { caseStudies } from "../../constants";
+import CaseStudiesCard from "../../components/caseStudies/CaseStudiesCard";
+import BlogPostCard from "../../components/blog/BlogPostCard";
 
 const index = () => {
   return (
@@ -15,37 +19,45 @@ const index = () => {
       <AboutUs />
       <OurPracticeArea />
       {/* case studies */}
-      <div className=" w-full h-auto bg-text_color_white mt-10 lg:mt-20 mb-6 lg:mb-24 flex flex-col items-center justify-center">
-        <h6 className=" font-montserrat font-normal text-base lg:text-lg text-[#382E3A]">
-          Case Studies
-        </h6>
-        <h2 className=" px-0 lg:px-64 font-playFairDisplay font-bold text-center text-[#1E2E45] text-2xl lg:text-4xl ">
-          {" "}
-          Client Case Portfolio
-        </h2>
-        <h2 className="px-0 lg:px-64 font-playFairDisplay font-bold text-center text-[#1E2E45] text-2xl lg:text-4xl mb-7 lg:mb-14">
-          Demonstrating Our Expertise
-        </h2>
-        <CaseStudies />
-      </div>
+      <CustomHeader
+        name="Case Studies"
+        title="Case Studies"
+        description=" Demonstrating Our Expertise"
+      >
+        <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-16 mb-20 lg:mb-44">
+          {caseStudies.slice(0, 3).map((caseStudy) => (
+            <CaseStudiesCard
+              key={caseStudy.id}
+              title={caseStudy.title}
+              img={caseStudy.img}
+              case={caseStudy.case}
+            />
+          ))}
+        </div>
+      </CustomHeader>
 
       <BookConsultation />
+
       <OurTeam />
       <ContactUs />
       {/* blog */}
-      <div className=" w-full h-auto bg-text_color_white mt-10 lg:mt-20 mb-6 lg:mb-7 flex flex-col items-center justify-center">
-        <h6 className=" font-montserrat font-normal text-base lg:text-lg text-[#382E3A]">
-          Blog
-        </h6>
-        <h2 className=" px-0 lg:px-64 font-playFairDisplay font-bold text-center text-[#1E2E45] text-2xl lg:text-4xl ">
-          {" "}
-          Latest News
-        </h2>
-        <h2 className="px-0 lg:px-64 font-playFairDisplay font-bold text-center text-[#1E2E45] text-2xl lg:text-4xl mb-7 lg:mb-14">
-          Demonstrating Our Expertise
-        </h2>
-        <Blog />
-      </div>
+      <CustomHeader
+        name="Blog"
+        title=" Latest News"
+        description="Demonstrating Our Expertise"
+      >
+        <Blog>
+          {blogPosts.slice(0, 3).map((blogPost) => (
+            <BlogPostCard
+              key={blogPost.id}
+              id={blogPost.id}
+              title={blogPost.title}
+              img={blogPost.img}
+              article={blogPost.article}
+            />
+          ))}
+        </Blog>
+      </CustomHeader>
     </div>
   );
 };
