@@ -43,9 +43,7 @@ const Home = () => {
           ))}
         </div>
       </CustomHeader>
-
       <BookConsultation />
-
       <OurTeam />
       <ContactUs />
       {/* blog */}
