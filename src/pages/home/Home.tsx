@@ -11,8 +11,14 @@ import ContactUs from "./ContactUs";
 import { caseStudies } from "../../constants";
 import CaseStudiesCard from "../../components/caseStudies/CaseStudiesCard";
 import BlogPostCard from "../../components/blog/BlogPostCard";
+import { useNavigate } from "react-router-dom";
 
-const index = () => {
+const Home = () => {
+  const navigate = useNavigate();
+
+  const navigateToCaseStudy = (title: string, data: any) => {
+    navigate(`/case-studies/case-study/${title}`, { state: { data } });
+  };
   return (
     <div>
       <Hero />
@@ -24,13 +30,14 @@ const index = () => {
         title="Case Studies"
         description=" Demonstrating Our Expertise"
       >
-        <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-16 mb-20 lg:mb-44">
-          {caseStudies.slice(0, 3).map((caseStudy) => (
+        <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-16 mb-20 lg:mb-44 ">
+          {caseStudies.slice(0, 2).map((caseStudy) => (
             <CaseStudiesCard
               key={caseStudy.id}
               title={caseStudy.title}
               img={caseStudy.img}
               case={caseStudy.case}
+              onClick={() => navigateToCaseStudy(caseStudy.title, caseStudy)}
             />
           ))}
         </div>
@@ -62,4 +69,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Home;

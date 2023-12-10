@@ -283,6 +283,124 @@ export const caseStudies = [
       Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. Proin ac a cursus praesent.`,
     },
   },
+  {
+    id: 2,
+    img: caseStudies2,
+    title: `The Case of William Accused Corruption of Money at Gtb Bank`,
+    case: {
+      aboutTheCase: `Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. 
+      Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. Proin ac a cursus praesent. 
+      Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
+      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
+      Dolor elit nunc et purus quam amet laoreet eu risus.
+      Cum mattis mollis odio gravida adipiscing. 
+      Facilisis scelerisque non lacinia tincidunt faucibus tortor vel. 
+      Erat risus etiam quam pretium ornare. Semper orci arcu pulvinar adipiscing pretium. 
+      Erat facilisis dis arcu senectus sit mi fermentum eu aliquam. 
+      Felis neque posuere pharetra porttitor lacinia proin pretium. 
+      Et et pharetra tincidunt vel egestas risus sed mollis adipiscing. 
+      Lobortis risus mauris vitae pellentesque lobortis sapien. 
+      Mi convallis leo nisl pharetra quam arcu blandit. Metus nisl volutpat ut sed sit sit est. `,
+      clientsNeed: `Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. 
+      Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. 
+      Proin ac a cursus praesent. Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
+      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
+      Dolor elit nunc et purus quam amet laoreet eu risus. Cum mattis mollis odio gravida adipiscing. 
+      Facilisis scelerisque non lacinia tincidunt faucibus tortor vel. 
+      Erat risus etiam quam pretium ornare. Semper orci arcu pulvinar adipiscing pretium. 
+      Erat facilisis dis arcu senectus sit mi fermentum eu aliquam. 
+      Felis neque posuere pharetra porttitor lacinia proin pretium. 
+      Et et pharetra tincidunt vel egestas risus sed mollis adipiscing. 
+      Lobortis risus mauris vitae pellentesque lobortis sapien. 
+      Mi convallis leo nisl pharetra quam arcu blandit. Metus nisl volutpat ut sed sit sit est. `,
+      challenges: `Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. 
+      Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. 
+      Proin ac a cursus praesent. Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
+      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
+      Dolor elit nunc et purus quam amet laoreet eu risus.
+      Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. 
+      Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. Proin ac a cursus praesent. 
+      Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
+      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
+      Dolor elit nunc et purus quam amet laoreet eu risus.`,
+      howWeWon: `Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. 
+      Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. 
+      Proin ac a cursus praesent. Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
+      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
+      Dolor elit nunc et purus quam amet laoreet eu risus.Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. Proin ac a cursus praesent.`,
+    },
+  },
+  {
+    id: 3,
+    img: caseStudies2,
+    title: `The Case of William Accused Corruption of Money at Gtb Bank`,
+    case: {
+      aboutTheCase: `Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. 
+      Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. Proin ac a cursus praesent. 
+      Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
+      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
+      Dolor elit nunc et purus quam amet laoreet eu risus.
+      Cum mattis mollis odio gravida adipiscing. 
+      Facilisis scelerisque non lacinia tincidunt faucibus tortor vel. 
+      Erat risus etiam quam pretium ornare. Semper orci arcu pulvinar adipiscing pretium. 
+      Erat facilisis dis arcu senectus sit mi fermentum eu aliquam. 
+      Felis neque posuere pharetra porttitor lacinia proin pretium. 
+      Et et pharetra tincidunt vel egestas risus sed mollis adipiscing. 
+      Lobortis risus mauris vitae pellentesque lobortis sapien. 
+      Mi convallis leo nisl pharetra quam arcu blandit. Metus nisl volutpat ut sed sit sit est. `,
+      clientsNeed: `Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. 
+      Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. 
+      Proin ac a cursus praesent. Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
+      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
+      Dolor elit nunc et purus quam amet laoreet eu risus. Cum mattis mollis odio gravida adipiscing. 
+      Facilisis scelerisque non lacinia tincidunt faucibus tortor vel. 
+      Erat risus etiam quam pretium ornare. Semper orci arcu pulvinar adipiscing pretium. 
+      Erat facilisis dis arcu senectus sit mi fermentum eu aliquam. 
+      Felis neque posuere pharetra porttitor lacinia proin pretium. 
+      Et et pharetra tincidunt vel egestas risus sed mollis adipiscing. 
+      Lobortis risus mauris vitae pellentesque lobortis sapien. 
+      Mi convallis leo nisl pharetra quam arcu blandit. Metus nisl volutpat ut sed sit sit est. `,
+      challenges: `Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. 
+      Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. 
+      Proin ac a cursus praesent. Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
+      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
+      Dolor elit nunc et purus quam amet laoreet eu risus.
+      Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. 
+      Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. Proin ac a cursus praesent. 
+      Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
+      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
+      Dolor elit nunc et purus quam amet laoreet eu risus.`,
+      howWeWon: `Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. 
+      Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. 
+      Proin ac a cursus praesent. Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
+      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
+      Dolor elit nunc et purus quam amet laoreet eu risus.Lorem ipsum dolor sit amet consectetur. 
+      Commodo pulvinar molestie pellentesque urna libero velit porta. Velit pellentesque hac gravida pellentesque est semper. 
+      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. Proin ac a cursus praesent.`,
+    },
+  },
 ];
 
 export const blogPosts = [
