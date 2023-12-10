@@ -1,13 +1,13 @@
 import React from "react";
 import Button from "../Button";
-import { Link } from "react-router-dom";
-import { REGULAR_PATHS } from "../../route/paths";
 
-type blogPostCardProps = {
+export type blogPostCardProps = {
   id: number;
   img: string;
   title: string;
   article: string;
+  onClick?: () => void;
+  className?: string;
 };
 
 const BlogPostCard: React.FC<blogPostCardProps> = ({
@@ -15,10 +15,13 @@ const BlogPostCard: React.FC<blogPostCardProps> = ({
   img,
   title,
   article,
+  onClick,
+  className,
 }) => {
-  const { BLOG_POST } = REGULAR_PATHS;
   return (
-    <div className="w-full lg:w-96 h-auto px-6 md:px-24 lg:px-0 pb-7 md:pb-14">
+    <div
+      className={` w-full md:w-96 h-auto px-6 md:px-0 lg:px-0 mb-7 lg:mb-7 ${className}`}
+    >
       <img
         src={img}
         alt="case studies"
@@ -39,12 +42,12 @@ const BlogPostCard: React.FC<blogPostCardProps> = ({
         <p className="font-montserrat font-normal text-sm text-[#382E3A] overflow-hidden line-clamp-4">
           {article}
         </p>
-        <Link to={BLOG_POST}>
-          <Button
-            text="Read More"
-            className=" w-[183px] h-10 font-outfit font-medium text-sm bg-secondary_color text-text_color_white hover:bg-primary_color hover:text-secondary_color"
-          />
-        </Link>
+
+        <Button
+          onClick={onClick}
+          text="Read More"
+          className=" w-[183px] h-10 font-outfit font-medium text-sm bg-secondary_color text-text_color_white hover:bg-primary_color hover:text-secondary_color"
+        />
       </div>
     </div>
   );

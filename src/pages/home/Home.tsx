@@ -6,17 +6,18 @@ import OurTeam from "../../components/ourTeam/OurTeam";
 import OurPracticeArea from "../../components/ourPracticeArea/OurPracticeArea";
 import CustomHeader from "../../components/CustomHeader";
 import { blogPosts } from "../../constants";
-import Blog from "../../components/blog/Blog";
 import ContactUs from "./ContactUs";
 import { caseStudies } from "../../constants";
-import CaseStudiesCard from "../../components/caseStudies/CaseStudiesCard";
+import CaseStudiesCard, {
+  CaseStudiesCardProps,
+} from "../../components/caseStudies/CaseStudiesCard";
 import BlogPostCard from "../../components/blog/BlogPostCard";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const navigate = useNavigate();
 
-  const navigateToCaseStudy = (title: string, data: any) => {
+  const navigateToCaseStudy = (title: string, data: CaseStudiesCardProps) => {
     navigate(`/case-studies/case-study/${title}`, { state: { data } });
   };
   return (
@@ -53,7 +54,7 @@ const Home = () => {
         title=" Latest News"
         description="Demonstrating Our Expertise"
       >
-        <Blog>
+        <div className=" w-full flex items-center justify-center flex-wrap basis-1 gap-14 md:gap-7">
           {blogPosts.slice(0, 3).map((blogPost) => (
             <BlogPostCard
               key={blogPost.id}
@@ -63,7 +64,7 @@ const Home = () => {
               article={blogPost.article}
             />
           ))}
-        </Blog>
+        </div>
       </CustomHeader>
     </div>
   );

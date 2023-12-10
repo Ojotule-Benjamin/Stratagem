@@ -6,9 +6,9 @@ const CaseStudy = () => {
   const { data } = location.state || {};
 
   return (
-    <div className="bg-red-700">
+    <div className=" bg-text_color_white">
       <h1>case study</h1>
-      {/* <p>Data: {JSON.stringify(data)}</p> */}
+      <p>Data: {JSON.stringify(data)}</p>
       <p>Title: {data.case.aboutTheCase}</p>
       <img src={data.img} alt="" />
     </div>

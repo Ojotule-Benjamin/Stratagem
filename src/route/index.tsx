@@ -10,9 +10,9 @@ import PracticeArea from "../pages/practiceArea/index";
 import CaseStudies from "../pages/caseStudies/CaseStudies";
 import CaseStudy from "../pages/caseStudy/CaseStudy";
 import Contact from "../pages/contact/index";
-import Blog from "../pages/blog/index";
+import Blog from "../pages/blog/Blog";
 import NotFound from "../pages/notFound/index";
-import BlogPost from "../pages/blogPost/index";
+import BlogPost from "../pages/blogPost/BlogPost";
 
 export const AppRouter = () => {
   //paths
