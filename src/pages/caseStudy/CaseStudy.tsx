@@ -9,7 +9,7 @@ const CaseStudy = () => {
 
   return (
     <div className=" bg-text_color_white ">
-      <CustomHero title="CASE STUDY" />
+      <CustomHero title="CASE STUDY" className="bg-hero-case-study" />
       <div className=" w-full h-auto px-5 md:px-10 lg:px-12 flex flex-col items-center justify-center mt-12 lg:mt-24">
         <h3 className="w-full px-0 md:px-0 lg:px-56  font-playFairDisplay font-bold text-2xl md:text-4xl text-center text-secondary_color uppercase">
           {data.title}

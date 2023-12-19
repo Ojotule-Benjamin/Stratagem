@@ -22,6 +22,8 @@ module.exports = {
         "hero-lg": "url('./assets/svgs/hero1.svg')",
         "hero-about": "url('./assets/svgs/hero2.svg')",
         "hero-practice-area": "url('./assets/svgs/hero3.svg')",
+        "hero-case-study": "url('./assets/svgs/hero4.svg')",
+        "hero-blog": "url('./assets/svgs/hero5.svg')",
       }),
     },
   },

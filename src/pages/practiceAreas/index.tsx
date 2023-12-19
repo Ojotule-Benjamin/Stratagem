@@ -6,7 +6,7 @@ import OurTeam from "../../components/ourTeam/OurTeam";
 const index = () => {
   return (
     <div>
-      <CustomHero title="PRACTICE AREAS" />
+      <CustomHero title="PRACTICE AREAS" className="bg-hero-practice-area" />
       <OurPracticeArea />
       <OurTeam />
     </div>

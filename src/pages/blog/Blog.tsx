@@ -15,7 +15,7 @@ const Blog = () => {
 
   return (
     <div className="w-full flex items-center justify-center flex-wrap basis-1 gap-14 md:gap-7 mb-5 md:mb-10">
-      <CustomHero title="Recent BLOG" />
+      <CustomHero title="Recent BLOG" className=" bg-hero-blog" />
       <div className=" bg-text_color_white w-full flex items-center justify-center flex-wrap gap-14 md:gap-7 mt-[38px] lg:mt-[77px]">
         {blogPosts.map((blogPost) => {
           return (
