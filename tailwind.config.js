@@ -19,7 +19,9 @@ module.exports = {
       },
       backgroundImage: (theme) => ({
         "gradient-skyDark": "linear-gradient(90deg, #FF616A 0%, #FFC837 100%)",
-        "hero-lg": "url('./assets/img/hero.png')",
+        "hero-lg": "url('./assets/svgs/hero1.svg')",
+        "hero-about": "url('./assets/svgs/hero2.svg')",
+        "hero-practice-area": "url('./assets/svgs/hero3.svg')",
       }),
     },
   },

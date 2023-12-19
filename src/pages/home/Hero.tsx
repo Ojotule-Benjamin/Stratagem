@@ -10,7 +10,7 @@ const Hero = () => {
   //const list = { visible: { opacity: 0 } };
 
   return (
-    <div className=" w-full h-[calc(100vh-7rem)] md:h-[calc(100vh-120px)] flex flex-col items-center justify-center bg-hero-lg bg-cover bg-center bg-secondary_color bg-blend-screen ">
+    <div className=" w-full h-[calc(100vh-7rem)] md:h-[calc(100vh-120px)] flex flex-col items-center justify-center bg-hero-lg bg-cover bg-center bg-secondary_color">
       <div className=" w-full h-auto flex flex-col items-center justify-center gap-2 md:gap-5 lg:gap-5">
         <motion.h4
           //variants={list}
