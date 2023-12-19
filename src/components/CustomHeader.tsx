@@ -2,9 +2,9 @@ import React, { ReactNode } from "react";
 
 interface CustomHeaderProps {
   name: string;
-  title: string;
-  description: string;
-  children: ReactNode;
+  title?: string;
+  description?: string;
+  children?: ReactNode;
 }
 
 const CustomHeader: React.FC<CustomHeaderProps> = ({
@@ -18,11 +18,11 @@ const CustomHeader: React.FC<CustomHeaderProps> = ({
       <h6 className=" font-montserrat font-normal text-base lg:text-lg text-[#382E3A]">
         {name}
       </h6>
-      <h2 className=" px-0 lg:px-64 font-playFairDisplay font-bold text-center text-[#1E2E45] text-2xl lg:text-4xl ">
+      <h2 className=" px-0 lg:px-64 font-playFairDisplay font-bold text-center text-text_color text-2xl lg:text-4xl ">
         {" "}
         {title}
       </h2>
-      <h2 className="px-0 lg:px-64 font-playFairDisplay font-bold text-center text-[#1E2E45] text-2xl lg:text-4xl mb-7 lg:mb-14">
+      <h2 className="px-0 lg:px-64 font-playFairDisplay font-bold text-center text-text_color text-2xl lg:text-4xl mb-7 lg:mb-14">
         {description}
       </h2>
       {children}

@@ -27,8 +27,12 @@ const Dedication = () => {
   }, []);
 
   return (
-    <div className="w-full h-full border-[20px] md:border-[50px] border-secondary_color relative">
-      <div ref={container} id="animation-container "></div>
+    <div className="w-full h-auto lg:h-[700px] border-[20px] md:border-[50px] border-secondary_color relative">
+      <div
+        className="w-full h-full"
+        ref={container}
+        id="animation-container "
+      ></div>
     </div>
   );
 };

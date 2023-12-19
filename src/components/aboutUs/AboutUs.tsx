@@ -4,18 +4,45 @@ import arrow from "../../assets/svgs/arrow.svg";
 import Dedication from "../Dedication";
 import { REGULAR_PATHS } from "../../route/paths";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+
+const variants = {
+  initial: {
+    x: -50,
+    Opacity: 0,
+  },
+  animate: {
+    x: 0,
+    Opacity: 1,
+    y: 0,
+    transition: {
+      duration: 1,
+      staggerChildren: 0.1,
+    },
+  },
+};
 
 const AboutUs = () => {
   const { OUR_FIRM } = REGULAR_PATHS;
   return (
-    <div className=" w-full h-full bg-text_color_white p-8 md:p-12 lg:p-16 flex flex-col lg:flex-row items-center justify-center gap-5">
+    <motion.div
+      variants={variants}
+      initial="initial"
+      //animate="animate"
+      whileInView="animate"
+      viewport={{ once: true }}
+      className="w-full h-auto lg:h-[700px] my-8 bg-text_color_white p-8 md:p-12 lg:p-16 flex flex-col lg:flex-row items-center justify-center gap-5"
+    >
       {/* left */}
-      <div className=" w-full lg:w-1/2 px-0 md:px-20 lg:px-0 h-full flex flex-col items-center justify-center lg:items-start lg:justify-start ">
+      <motion.div
+        variants={variants}
+        className=" w-full lg:w-1/2 px-0 md:px-20 lg:px-0 h-full flex flex-col items-center justify-center lg:items-start lg:justify-start "
+      >
         <Dedication />
-      </div>
+      </motion.div>
 
       {/* right */}
-      <div className=" w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:items-start lg:justify-start gap-4 lg:gap-2">
+      <div className=" w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:items-start lg:justify-between gap-4 lg:gap-2">
         <p className=" font-playFairDisplay font-bold text-base text-secondary_color">
           About Us
         </p>
@@ -50,7 +77,7 @@ const AboutUs = () => {
           />
         </Link>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
