@@ -4,6 +4,8 @@ import WelcomeMessage from "./WelcomeMessage";
 import OurPracticeArea from "../../components/ourPracticeArea/OurPracticeArea";
 import OurStory from "./OurStory";
 import OurMission from "./OurMission";
+import Quote from "./Quote";
+import OurTeam from "../../components/ourTeam/OurTeam";
 
 const index = () => {
   return (
@@ -18,7 +20,9 @@ const index = () => {
       </h1>
       <OurStory />
       <OurMission />
+      <Quote />
       <OurPracticeArea />
+      <OurTeam />
     </div>
   );
 };

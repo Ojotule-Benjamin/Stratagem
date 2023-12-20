@@ -7,8 +7,7 @@ export enum REGULAR_PATHS {
   BLOG = "/blog",
 
   //sub pages
-  PRACTICE_AREA = `/practice-areas/practice-area/`,
+  PRACTICE_AREA = `/practice-areas/practice-area/:data`,
   CASE_STUDY = `/case-studies/case-study/:data`,
   BLOG_POST = `/blog/blog-post/:data`,
-  //BLOG_POST = `/blog/blog-post/:data`,
 }

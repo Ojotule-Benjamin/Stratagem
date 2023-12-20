@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
 
 interface CustomHeaderProps {
-  name: string;
+  name?: string;
   title?: string;
   description?: string;
   children?: ReactNode;

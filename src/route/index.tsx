@@ -6,7 +6,7 @@ import Footer from "../components/footer/Footer";
 import Home from "../pages/home/Home";
 import OurFirm from "../pages/ourFirm/index";
 import PracticeAreas from "../pages/practiceAreas/index";
-import PracticeArea from "../pages/practiceArea/index";
+import PracticeArea from "../pages/practiceArea/PracticeArea";
 import CaseStudies from "../pages/caseStudies/CaseStudies";
 import CaseStudy from "../pages/caseStudy/CaseStudy";
 import Contact from "../pages/contact/index";
