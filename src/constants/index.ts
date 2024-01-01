@@ -133,34 +133,212 @@ export const practiceAreas = [
   {
     id: 0,
     title: "Arbitration & Mediation",
-    desc: `Our adept legal team adeptly guides clients through complex arbitration
-    and mediation processes, leveraging a strong understanding of
-    alternative dispute resolution methods.`,
+    desc: `Our adept legal team adeptly guides clients through complex arbitration and mediation processes, leveraging a strong understanding of alternative dispute resolution methods.`,
+    overview: `Arbitration, Conciliation and Mediation are Alternative Dispute Resolution for solving civil nature disputes. Through these methods our Firm has resolved complex commercial disputes without resort to regular judicial system, i.e regular courts. With the growth of commerce and technology start-ups, it has become expedient for disputes to be resolved speedily, hence Arbitration, mediation and Conciliation has become a sine qua non`,
+    pros: [
+      {
+        heading: "Efficiency",
+        text: "Arbitration is often faster than litigation. It allows parties to resolve disputes without the lengthy court process, saving time and resources.",
+      },
+      {
+        heading: "Privacy",
+        text: "Arbitration proceedings are typically private, keeping sensitive matters confidential.",
+      },
+      {
+        heading: "Flexibility",
+        text: "Parties have more control over the arbitration process, including choosing the arbitrator and the rules governing the proceedings.",
+      },
+    ],
+
+    cons: [
+      {
+        heading: "Lack of Precedent",
+        text: "Arbitration awards do not establish legal precedent, making it challenging to predict outcomes in future disputes.",
+      },
+      {
+        heading: "Limited Appeals",
+        text: "Arbitration decisions have limited opportunities for appeal, potentially leaving parties dissatisfied with the outcome.",
+      },
+      {
+        heading: "Binding Nature",
+        text: "Arbitration is typically binding, leaving parties with limited recourse if they are unhappy with the decision",
+      },
+    ],
   },
   {
     id: 1,
     title: "Intellectual Property",
     desc: `we are committed to safeguarding your creative works and innovative ideas. Our seasoned legal team specializes in trademarks, copyrights, patents, and trade secrets, offering holistic protection for your intellectual assets.`,
+    overview: `The Firm is passionate about protecting the intellectual property of Clients hence the Firm is accredited as Trademark, Patents, designs and copyright agents. Our accreditations has positioned the Firm for the protection of clients creativity, be it Inventions, brands, books, music, art, filming, writing etc and also provide all the necessary steps required to protect such person’s rights, and ensures that our clients reaps the benefit of their creative ability.`,
+    pros: [
+      {
+        heading: "Efficiency",
+        text: "Arbitration is often faster than litigation. It allows parties to resolve disputes without the lengthy court process, saving time and resources.",
+      },
+      {
+        heading: "Privacy",
+        text: "Arbitration proceedings are typically private, keeping sensitive matters confidential.",
+      },
+      {
+        heading: "Flexibility",
+        text: "Parties have more control over the arbitration process, including choosing the arbitrator and the rules governing the proceedings.",
+      },
+    ],
+
+    cons: [
+      {
+        heading: "Lack of Precedent",
+        text: "Arbitration awards do not establish legal precedent, making it challenging to predict outcomes in future disputes.",
+      },
+      {
+        heading: "Limited Appeals",
+        text: "Arbitration decisions have limited opportunities for appeal, potentially leaving parties dissatisfied with the outcome.",
+      },
+      {
+        heading: "Binding Nature",
+        text: "Arbitration is typically binding, leaving parties with limited recourse if they are unhappy with the decision",
+      },
+    ],
   },
   {
     id: 2,
     title: "Regulatory Compliance",
     desc: `Our Regulatory Compliance services are tailored to navigate complex regulations for businesses. Our skilled legal team helps clients grasp and comply with evolving rules, cultivating an accountable culture.`,
+    overview: `Arbitration, Conciliation and Mediation are Alternative Dispute Resolution for solving civil nature disputes. Through these methods our Firm has resolved complex commercial disputes without resort to regular judicial system, i.e regular courts. With the growth of commerce and technology start-ups, it has become expedient for disputes to be resolved speedily, hence Arbitration, mediation and Conciliation has become a sine qua non`,
+    pros: [
+      {
+        heading: "Efficiency",
+        text: "Arbitration is often faster than litigation. It allows parties to resolve disputes without the lengthy court process, saving time and resources.",
+      },
+      {
+        heading: "Privacy",
+        text: "Arbitration proceedings are typically private, keeping sensitive matters confidential.",
+      },
+      {
+        heading: "Flexibility",
+        text: "Parties have more control over the arbitration process, including choosing the arbitrator and the rules governing the proceedings.",
+      },
+    ],
+
+    cons: [
+      {
+        heading: "Lack of Precedent",
+        text: "Arbitration awards do not establish legal precedent, making it challenging to predict outcomes in future disputes.",
+      },
+      {
+        heading: "Limited Appeals",
+        text: "Arbitration decisions have limited opportunities for appeal, potentially leaving parties dissatisfied with the outcome.",
+      },
+      {
+        heading: "Binding Nature",
+        text: "Arbitration is typically binding, leaving parties with limited recourse if they are unhappy with the decision",
+      },
+    ],
   },
   {
     id: 3,
     title: "Banking & Insurance",
     desc: `We offer comprehensive Banking & Insurance services, combining legal expertise with financial insight. Our team excels in navigating regulations and providing strategic guidance.`,
+    overview: `Arbitration, Conciliation and Mediation are Alternative Dispute Resolution for solving civil nature disputes. Through these methods our Firm has resolved complex commercial disputes without resort to regular judicial system, i.e regular courts. With the growth of commerce and technology start-ups, it has become expedient for disputes to be resolved speedily, hence Arbitration, mediation and Conciliation has become a sine qua non`,
+    pros: [
+      {
+        heading: "Efficiency",
+        text: "Arbitration is often faster than litigation. It allows parties to resolve disputes without the lengthy court process, saving time and resources.",
+      },
+      {
+        heading: "Privacy",
+        text: "Arbitration proceedings are typically private, keeping sensitive matters confidential.",
+      },
+      {
+        heading: "Flexibility",
+        text: "Parties have more control over the arbitration process, including choosing the arbitrator and the rules governing the proceedings.",
+      },
+    ],
+
+    cons: [
+      {
+        heading: "Lack of Precedent",
+        text: "Arbitration awards do not establish legal precedent, making it challenging to predict outcomes in future disputes.",
+      },
+      {
+        heading: "Limited Appeals",
+        text: "Arbitration decisions have limited opportunities for appeal, potentially leaving parties dissatisfied with the outcome.",
+      },
+      {
+        heading: "Binding Nature",
+        text: "Arbitration is typically binding, leaving parties with limited recourse if they are unhappy with the decision",
+      },
+    ],
   },
   {
     id: 4,
     title: "Real Estate Practice",
     desc: `Our Real Estate services focus on expertly navigating property transactions. With a our legal team, we provide guidance on acquisitions, leasing, development, and beyond.`,
+    overview: `Arbitration, Conciliation and Mediation are Alternative Dispute Resolution for solving civil nature disputes. Through these methods our Firm has resolved complex commercial disputes without resort to regular judicial system, i.e regular courts. With the growth of commerce and technology start-ups, it has become expedient for disputes to be resolved speedily, hence Arbitration, mediation and Conciliation has become a sine qua non`,
+    pros: [
+      {
+        heading: "Efficiency",
+        text: "Arbitration is often faster than litigation. It allows parties to resolve disputes without the lengthy court process, saving time and resources.",
+      },
+      {
+        heading: "Privacy",
+        text: "Arbitration proceedings are typically private, keeping sensitive matters confidential.",
+      },
+      {
+        heading: "Flexibility",
+        text: "Parties have more control over the arbitration process, including choosing the arbitrator and the rules governing the proceedings.",
+      },
+    ],
+
+    cons: [
+      {
+        heading: "Lack of Precedent",
+        text: "Arbitration awards do not establish legal precedent, making it challenging to predict outcomes in future disputes.",
+      },
+      {
+        heading: "Limited Appeals",
+        text: "Arbitration decisions have limited opportunities for appeal, potentially leaving parties dissatisfied with the outcome.",
+      },
+      {
+        heading: "Binding Nature",
+        text: "Arbitration is typically binding, leaving parties with limited recourse if they are unhappy with the decision",
+      },
+    ],
   },
   {
     id: 5,
     title: "General Litigation",
     desc: `At Stratagem LP, With our proficient legal team, we handle a diverse range of cases, including commercial and civil litigation, as well as alternative dispute resolution.`,
+    overview: `Arbitration, Conciliation and Mediation are Alternative Dispute Resolution for solving civil nature disputes. Through these methods our Firm has resolved complex commercial disputes without resort to regular judicial system, i.e regular courts. With the growth of commerce and technology start-ups, it has become expedient for disputes to be resolved speedily, hence Arbitration, mediation and Conciliation has become a sine qua non`,
+    pros: [
+      {
+        heading: "Efficiency",
+        text: "Arbitration is often faster than litigation. It allows parties to resolve disputes without the lengthy court process, saving time and resources.",
+      },
+      {
+        heading: "Privacy",
+        text: "Arbitration proceedings are typically private, keeping sensitive matters confidential.",
+      },
+      {
+        heading: "Flexibility",
+        text: "Parties have more control over the arbitration process, including choosing the arbitrator and the rules governing the proceedings.",
+      },
+    ],
+
+    cons: [
+      {
+        heading: "Lack of Precedent",
+        text: "Arbitration awards do not establish legal precedent, making it challenging to predict outcomes in future disputes.",
+      },
+      {
+        heading: "Limited Appeals",
+        text: "Arbitration decisions have limited opportunities for appeal, potentially leaving parties dissatisfied with the outcome.",
+      },
+      {
+        heading: "Binding Nature",
+        text: "Arbitration is typically binding, leaving parties with limited recourse if they are unhappy with the decision",
+      },
+    ],
   },
 ];
 

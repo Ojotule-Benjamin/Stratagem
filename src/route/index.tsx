@@ -9,7 +9,7 @@ import PracticeAreas from "../pages/practiceAreas/index";
 import PracticeArea from "../pages/practiceArea/PracticeArea";
 import CaseStudies from "../pages/caseStudies/CaseStudies";
 import CaseStudy from "../pages/caseStudy/CaseStudy";
-import Contact from "../pages/contact/index";
+import Contact from "../pages/contact/Contact";
 import Blog from "../pages/blog/Blog";
 import NotFound from "../pages/notFound/index";
 import BlogPost from "../pages/blogPost/BlogPost";
@@ -34,7 +34,7 @@ export const AppRouter = () => {
       <div>
         <Navbar />
         <Outlet />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   };

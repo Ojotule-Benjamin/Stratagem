@@ -1,16 +1,30 @@
 import React from "react";
 import Button from "../Button";
-import { Link } from "react-router-dom";
-import { REGULAR_PATHS } from "../../route/paths";
 
-type OurPracticeAreaCardProps = {
+// export type OurPracticeAreaCardProps = {
+//   title: string;
+//   desc: string;
+//   overview: string;
+//   pros : string[]
+//   onClick?: () => void;
+// };
+
+interface PracticeAreaProsConsItem {
+  heading: string;
+  text: string;
+}
+
+interface OurPracticeAreaCardProps {
+  id: number;
   title: string;
   desc: string;
+  overview?: string;
+  pros?: PracticeAreaProsConsItem[];
+  cons?: PracticeAreaProsConsItem[];
   onClick?: () => void;
-};
+}
 
 const OurPracticeAreaCard: React.FC<OurPracticeAreaCardProps> = (props) => {
-  const { PRACTICE_AREA } = REGULAR_PATHS;
   return (
     <div className="basis-80 h-[313px] p-5 bg-[#1A212C] border-none flex flex-col items-center justify-center">
       <h3 className=" font-playFairDisplay font-bold text-xl lg:text-2xl mb-3 text-text_color_white">

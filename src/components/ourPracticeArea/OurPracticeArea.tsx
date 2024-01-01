@@ -23,6 +23,7 @@ const OurPracticeArea = () => {
         {practiceAreas.map((practiceArea) => (
           <OurPracticeAreaCard
             key={practiceArea.id}
+            id={practiceArea.id}
             title={practiceArea.title}
             desc={practiceArea.desc}
             onClick={() =>
