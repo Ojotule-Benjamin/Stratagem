@@ -49,8 +49,8 @@ const Contact = () => {
   return (
     <div>
       <CustomHero title="CONTACT US" className=" bg-hero-blog" />
-      <div className="w-full px-4 md:px-14 lg:px-28 mb-12 lg:mb-24 flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-12 ">
-        <div className=" w-full h-[376px] flex items-center justify-center border-[#000] border-r-0 border-8">
+      <div className="w-full px-5 md:px-14 lg:px-28 mb-12 lg:mb-24 flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-12 ">
+        <div className=" w-full md:w-1/2 lg:w-full h-[270px] md:h-[350px] lg:h-[376px] p-4 flex items-center justify-center border-[#000] border-r-0 border-8">
           <img src={contactImg} alt="" />
         </div>
         <div className=" w-full flex flex-col items-start justify-start gap-2">
@@ -74,10 +74,10 @@ const Contact = () => {
           </p>
           <div className="w-full flex flex-col items-start justify-start gap-4 lg:gap-7">
             <div className=" w-full flex items-center justify-start gap-2">
-              <div className=" w-14 h-14 lg:w-[68px] lg:h-[68px] flex items-center justify-center rounded-full bg-primary_color">
+              <div className=" w-12 h-12 lg:w-[68px] lg:h-[68px] flex items-center justify-center rounded-full bg-primary_color">
                 <img src={telephoneIcon} alt="telephone icon" />
               </div>
-              <div className=" font-montserrat font-normal text-xs lg:text-lg">
+              <div className=" font-montserrat font-normal text-sm lg:text-lg">
                 <p className=" text-[#7D7D7D]">Have any question?</p>
                 <a
                   href="tel:+2348036362308"
@@ -88,10 +88,10 @@ const Contact = () => {
               </div>
             </div>
             <div className=" w-full flex items-center justify-start gap-2 lg:gap-4">
-              <div className=" w-14 h-14 lg:w-[68px] lg:h-[68px] flex items-center justify-center rounded-full bg-primary_color">
+              <div className=" w-12 h-12 lg:w-[68px] lg:h-[68px] flex items-center justify-center rounded-full bg-primary_color">
                 <img src={mailIcon} alt="mail icon" />
               </div>
-              <div className=" font-montserrat font-normal text-xs lg:text-lg">
+              <div className=" font-montserrat font-normal text-sm lg:text-lg">
                 <p className=" text-[#7D7D7D]">Write email</p>
                 <a
                   href="mailto:info@stratagemlp.com"
@@ -102,10 +102,10 @@ const Contact = () => {
               </div>
             </div>
             <div className=" w-full flex items-center justify-start gap-2 lg:gap-4">
-              <div className=" w-14 h-14 lg:w-[68px] lg:h-[68px] flex items-center justify-center rounded-full bg-primary_color">
+              <div className=" w-12 h-12 lg:w-[68px] lg:h-[68px] flex items-center justify-center rounded-full bg-primary_color">
                 <img src={locationIcon} alt="location icon" />
               </div>
-              <div className="h-auto font-montserrat font-normal text-xs lg:text-lg">
+              <div className="h-auto font-montserrat font-normal text-sm lg:text-lg">
                 <p className=" text-[#7D7D7D]">Visit anytime</p>
                 <p>6, Umuahia Close,Off Emeka </p>
                 <p>Anyaoku Street, Area 11, Garki Abuja.</p>
