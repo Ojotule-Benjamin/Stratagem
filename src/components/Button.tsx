@@ -4,7 +4,8 @@ type buttonprops = {
   text: string;
   className?: string;
   icon?: React.ReactNode;
-  onClick?: () => void;
+  //onClick?: () => void;
+  onClick?: (e: React.SyntheticEvent) => void;
 };
 
 const Button: React.FC<buttonprops> = ({ text, className, icon, onClick }) => {
