@@ -12,12 +12,15 @@ const BlogPost = () => {
 
   return (
     <div>
-      <CustomHero title={data.article} className=" bg-hero-blog" />
+      <CustomHero title={data.title} className=" bg-hero-blog" />
       <div className=" w-full px-5 lg:px-11 flex flex-col lg:flex-row items-start justify-between gap-8 lg:gap-16">
         <div className=" w-full lg:w-[70%]">
           <p className=" font-montserrat  font-normal text-base lg:text-xl text-justify text-[#1F2732] ">
             {data.article}
           </p>
+          <div className=" font-playFairDisplay font-medium text-xs text-primary_color mt-5">
+            <p>Published on: | July 30, 2023</p>
+          </div>
         </div>
         <div className=" w-full lg:w-[30%]">
           <h3 className=" font-playFairDisplay font-bold text-2xl text-[#121416] mb-5">
