@@ -1,16 +1,40 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 import CustomHero from "../../components/CustomHero";
 import OurTeam from "../../components/ourTeam/OurTeam";
+import lottie, { AnimationItem } from "lottie-web";
+import Animation from "../../assets/lottie/Animation.json";
 
 const CaseStudy = () => {
   const location = useLocation();
   const { data } = location.state || {};
+  const container = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    let animation: AnimationItem | null = null;
+
+    if (container.current) {
+      animation = lottie.loadAnimation({
+        animationData: Animation,
+        autoplay: true,
+        container: container.current,
+        loop: true,
+        renderer: "svg",
+      });
+    }
+
+    // Cleanup on unmount
+    return () => {
+      if (animation) {
+        animation.destroy();
+      }
+    };
+  }, []);
 
   return (
     <div className=" bg-text_color_white ">
       <CustomHero title="CASE STUDY" className="bg-hero-case-study" />
-      <div className=" w-full h-auto px-5 md:px-10 lg:px-12 flex flex-col items-center justify-center mt-12 lg:mt-24">
+      <div className=" w-full h-auto px-5 md:px-10 lg:px-12 flex flex-col items-center justify-center mt-12 lg:mt-24 ">
         <h3 className="w-full px-0 md:px-0 lg:px-56  font-playFairDisplay font-bold text-2xl md:text-4xl text-center text-secondary_color uppercase">
           {data.title}
         </h3>
@@ -63,7 +87,11 @@ const CaseStudy = () => {
                 className=" w-full h-full object-cover"
               />
             </div>
-            <div className="w-full h-[800px] bg-blue-500">2</div>
+            <div
+              ref={container}
+              id="animation-container "
+              className="w-full h-[800px] bg-[#000000]"
+            ></div>
             <div className="w-full h-[400px] ">
               <img
                 src={data.img}

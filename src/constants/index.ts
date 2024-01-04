@@ -588,7 +588,8 @@ export const blogPosts = [
     title: `How Can your Start Up hire a quality lawyer?`,
     article: `Starting a new venture can be exciting and challenging. It is important that you hire a lawyer too as all companies, irrespective of their size needs legal representation. When you start your business, you will find that you need legal guidance at every step and at different phases of the business life, from the initial incorporation to raising capital for expansion to hiring employees, you need the services of a good lawyer. It goes without saying that most businessmen cannot handle the legal matters in a way that professional and competent lawyers can.
     You need to find a law office so that you can find the best representation that will be best for your business needs and is also affordable. One of the important thing that you need to consider is that the lawyer you hire is specialized in the industry you are starting a business. The lawyer will have clear idea about the industry and will know about the legal obstacles that you can face. The lawyer will be able to help your startup by covering all the legal tracks right from the start, so that you can grow your business without having to worry about any legal loopholes that may threaten dream venture.
-    We can also help you with lawsuits against negligent parties for different issues such as inadequate security, wrong hiring practices and also lawsuits against schools, companies, nursing homes, employers, hotels, apartment complexes, say care centres and more. You can get quotation from several lawyers and choose the one that best fits your budget. But ensure that you choose a competent lawyer by interviewing them before hiring. bRemember that an efficient lawyer can make a big difference to your case, so it is important that you spend some time in finding the best lawyer to seek advice from for your legal matters.`,
+    We can also help you with lawsuits against negligent parties for different issues such as inadequate security, wrong hiring practices and also lawsuits against schools, companies, nursing homes, employers, hotels, apartment complexes, say care centres and more. You can get quotation from several lawyers and choose the one that best fits your budget. But ensure that you choose a competent lawyer by interviewing them before hiring. bRemember that an efficient lawyer can make a big difference to your case, so it is important that you spend some time in finding the best lawyer to seek advice from for your legal matters.
+    `,
     comments: {
       user: `Benjamin`,
       comment: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula nibh, interdum non enim sit amet, iaculis aliquet nunc.`,
@@ -597,10 +598,22 @@ export const blogPosts = [
   {
     id: 1,
     img: blogImg2,
-    title: `Legal Tips: Navigating Legal Matters Effectively.`,
-    article: `Starting a new venture can be exciting and challenging. It is important that you hire a lawyer too as all companies, irrespective of their size needs legal representation. When you start your business, you will find that you need legal guidance at every step and at different phases of the business life, from the initial incorporation to raising capital for expansion to hiring employees, you need the services of a good lawyer. It goes without saying that most businessmen cannot handle the legal matters in a way that professional and competent lawyers can.
-    You need to find a law office so that you can find the best representation that will be best for your business needs and is also affordable. One of the important thing that you need to consider is that the lawyer you hire is specialized in the industry you are starting a business. The lawyer will have clear idea about the industry and will know about the legal obstacles that you can face. The lawyer will be able to help your startup by covering all the legal tracks right from the start, so that you can grow your business without having to worry about any legal loopholes that may threaten dream venture.
-    We can also help you with lawsuits against negligent parties for different issues such as inadequate security, wrong hiring practices and also lawsuits against schools, companies, nursing homes, employers, hotels, apartment complexes, say care centres and more. You can get quotation from several lawyers and choose the one that best fits your budget. But ensure that you choose a competent lawyer by interviewing them before hiring. bRemember that an efficient lawyer can make a big difference to your case, so it is important that you spend some time in finding the best lawyer to seek advice from for your legal matters.`,
+    title: `10 Habits That Will Change Your Live for the Better If envy and jealousy are impacting your friendships
+    `,
+    article: `Next, we are splitting this string into an array of values. Each array item is created between each space. E.g “hello world” would become [“hello”, “world”].
+
+    From this array, we have the number of words as the number of entries in the array. We'll set this number to the totalWords variable in state.
+    
+    The following step is an important one, we are looping through each word and if it's a multiple of 250 we are wrapping the word in an HTML span tag with a class of checkpoint and a data attribute of checkpoint and the current index of the counter.
+    
+    For example, the 250th word would be wrapped in a span with the data-checkpoint value of 1. 500th word would be a value of 2, etc.
+    
+    We'll be using these values and classes later to update the read time left.
+    
+    Next, we are merging our processed array of values back into a string as we originally had, but now with the span elements, we needed to wrap the text in.
+    
+    Before, finally, we set this parsed HTML string into the state variable 'parsed'.
+    `,
     comments: {
       user: `Smith`,
       comment: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula nibh, interdum non enim sit amet, iaculis aliquet nunc.`,
