@@ -31,8 +31,9 @@ export const AppRouter = () => {
   //LAYOUT
   const Layout = () => {
     return (
-      <div>
+      <div className=" ">
         <Navbar />
+
         <Outlet />
         <Footer />
       </div>

@@ -14,12 +14,12 @@ const Navbar = () => {
   let location = useLocation();
 
   return (
-    <div className=" bg-primary_color_white w-full h-28 md:h-[120px] py-0 md:py-1 lg:py-1 px-2 md:px-5 lg:px-9 flex items-center justify-between">
+    <div className="bg-primary_color_white w-full h-24 md:h-[120px] py-0 md:py-1 lg:py-1 px-2 md:px-5 lg:px-9 flex items-center justify-between z-0">
       <Link to={HOME}>
-        <div className=" flex items-center justify-center cursor-pointer ">
-          <img src={logo} alt="logo" className="w-16 h-auto md:w-20 md:h-24 " />
-          <div className="flex flex-col items-start justify-center">
-            <h1 className=" text-primary_color font-playFairDisplay font-bold text-2xl md:text-3xl lg:text-4xl leading-10">
+        <div className=" w-full h-16 flex items-center justify-center cursor-pointer ">
+          <img src={logo} alt="logo" className="w-16 h-16 md:w-20 md:h-24 " />
+          <div className=" w-full h-full flex flex-col items-start justify-center">
+            <h1 className=" h-full text-primary_color font-playFairDisplay font-bold text-xl md:text-3xl lg:text-4xl leading-10">
               Stratagem
             </h1>
             <p className=" text-text_color_blackII font-playFairDisplay font-normal text-xl md:text-2xl lg:text-3xl leading-9">
@@ -71,9 +71,9 @@ const Navbar = () => {
         </div>
       )}
 
-      {/* Menu dropdown */}
+      {/* mobile mobile */}
       {!open && (
-        <ul className="w-full h-screen z-20 bg-primary_color_white flex flex-col gap-10 items-center justify-center absolute top-28 left-0 right-0 transition-transform transform ease-in-out duration-5000">
+        <ul className="w-full h-[calc(100vh-6rem)] z-20 bg-primary_color_white flex flex-col gap-5 items-center justify-center absolute top-24 left-0 right-0 transition-transform transform ease-in-out duration-5000">
           {navLinks.map((link) => {
             return (
               <li

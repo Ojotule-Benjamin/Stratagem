@@ -27,7 +27,7 @@ const ContactUs = () => {
       </div>
       {/* right */}
       <div className=" w-full lg:w-1/2 h-[413px] px-3 md:px-20 lg:pl-[71px] lg:pr-32 flex flex-col items-center justify-center border-8 border-r-0">
-        <div className=" w-80 h-[380px] md:w-full lg:w-96 lg:h-96 bg-[#1A212C]">
+        <div className=" w-full h-[380px] md:w-full lg:w-96 lg:h-96 bg-[#1A212C]">
           right
         </div>
       </div>
