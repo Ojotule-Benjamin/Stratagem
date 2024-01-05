@@ -586,9 +586,23 @@ export const blogPosts = [
     id: 0,
     img: blogImg1,
     title: `How Can your Start Up hire a quality lawyer?`,
-    article: `Starting a new venture can be exciting and challenging. It is important that you hire a lawyer too as all companies, irrespective of their size needs legal representation. When you start your business, you will find that you need legal guidance at every step and at different phases of the business life, from the initial incorporation to raising capital for expansion to hiring employees, you need the services of a good lawyer. It goes without saying that most businessmen cannot handle the legal matters in a way that professional and competent lawyers can.
-    You need to find a law office so that you can find the best representation that will be best for your business needs and is also affordable. One of the important thing that you need to consider is that the lawyer you hire is specialized in the industry you are starting a business. The lawyer will have clear idea about the industry and will know about the legal obstacles that you can face. The lawyer will be able to help your startup by covering all the legal tracks right from the start, so that you can grow your business without having to worry about any legal loopholes that may threaten dream venture.
-    We can also help you with lawsuits against negligent parties for different issues such as inadequate security, wrong hiring practices and also lawsuits against schools, companies, nursing homes, employers, hotels, apartment complexes, say care centres and more. You can get quotation from several lawyers and choose the one that best fits your budget. But ensure that you choose a competent lawyer by interviewing them before hiring. bRemember that an efficient lawyer can make a big difference to your case, so it is important that you spend some time in finding the best lawyer to seek advice from for your legal matters.
+    article: `Starting a new venture can be exciting and challenging. 
+    It is important that you hire a lawyer too as all companies, 
+    irrespective of their size, need legal representation. 
+    When you start your business, 
+    you will find that you need legal guidance at every step and at different phases of the business life, 
+    from the initial incorporation to raising capital for expansion to hiring employees, you need the services of a good lawyer. 
+    It goes without saying that most businessmen cannot handle the legal matters in a way that professional and competent lawyers can. 
+    You need to find a law office so that you can find the best representation that will be best for your business needs and is also affordable. 
+    One of the important things that you need to consider is that the lawyer you hire is specialized in the industry you are starting a business in. 
+    The lawyer will have a clear idea about the industry and will know about the legal obstacles that you can face. 
+    The lawyer will be able to help your startup by covering all the legal tracks right from the start, 
+    so that you can grow your business without having to worry about any legal loopholes that may threaten your dream venture.
+    We can also help you with lawsuits against negligent parties for different issues such as inadequate security, 
+    wrong hiring practices and also lawsuits against schools, companies, nursing homes, employers, hotels, apartment complexes, 
+    say care centers and more. You can get quotations from several lawyers and choose the one that best fits your budget. 
+    But ensure that you choose a competent lawyer by interviewing them before hiring. 
+    Remember that an efficient lawyer can make a big difference to your case, so it is important that you spend some time in finding the best lawyer to seek advice from for your legal matters.
     `,
     comments: [
       {
@@ -604,22 +618,13 @@ export const blogPosts = [
   {
     id: 1,
     img: blogImg2,
-    title: `10 Habits That Will Change Your Live for the Better If envy and jealousy are impacting your friendships
-    `,
-    article: `Next, we are splitting this string into an array of values. Each array item is created between each space. E.g “hello world” would become [“hello”, “world”].
-
-    From this array, we have the number of words as the number of entries in the array. We'll set this number to the totalWords variable in state.
-    
-    The following step is an important one, we are looping through each word and if it's a multiple of 250 we are wrapping the word in an HTML span tag with a class of checkpoint and a data attribute of checkpoint and the current index of the counter.
-    
-    For example, the 250th word would be wrapped in a span with the data-checkpoint value of 1. 500th word would be a value of 2, etc.
-    
-    We'll be using these values and classes later to update the read time left.
-    
-    Next, we are merging our processed array of values back into a string as we originally had, but now with the span elements, we needed to wrap the text in.
-    
-    Before, finally, we set this parsed HTML string into the state variable 'parsed'.
-    `,
+    title: `Legal Tips`,
+    article: `In 1999 Maduro was a member of the National Constituent Assembly that rewrote the constitution that was part of Chávez’s ascent to the presidency. That year Maduro also served in the Chamber of Deputies (the lower house of the Venezuelan legislature), which was eliminated when the legislature became the unicameral National Assembly, in which Maduro began serving in 2000. He was reelected in 2005 and served as the body’s president until 2006, when he became foreign minister. In that capacity he worked to advance the goals of the Bolivarian Alliance for the Peoples of Our America (ALBA), which sought to increase social, political, and economic integration in Latin America and to blunt U.S. influence in the region. He also helped cultivate friendly relations for Venezuela with such controversial world leaders as Libya’s Muammar al-Qaddafi, Zimbabwe’s Robert Mugabe, and Iran’s Mahmoud Ahmadinejad.
+Maduro’s profile in the administration began to grow, especially as Chávez’s health began to deteriorate, beginning with Chávez’s initial announcement in 2011 that he had cancer. In October 2012, following Chávez’s triumph in the presidential election over Henrique Capriles Radonski, Maduro became vice president. At the same time, Maduro’s wife (herself a former president of the National Assembly) was serving as Venezuela’s attorney general, which led to the perception of the two as the country’s ultimate political power couple. Before leaving for another round of surgery in Cuba in December 2012, Chávez named Maduro as his preferred successor should he not survive. Indeed, while most of the world was kept in the dark regarding Chávez’s status during a postsurgery recovery in Cuba that forced the postponement of his inauguration in January 2013, Maduro, ever the loyal chavista, acted as the country’s de facto leader. His principal rival for power within the chavismo movement was the president of the National Assembly at that time, Diosdado Cabello, who was widely perceived as the favourite of the military, whereas Maduro was seen as having the support of Chávez’s pivotal ally the Castro regime in Cuba.
+   
+   Personal life:
+   Maduro has been married twice. His first marriage was to Adriana Guerra Angulo, with whom he had his only son, Nicolás Maduro Guerra, also known as “Nicolasito”, who was appointed to several senior government posts (Chief of the Presidency’s Special Inspectors Body, head of the National Film School, and a seat in the National Assembly). He later married Cilia Flores, a lawyer and politician who replaced Maduro as president of the National Assembly in August 2006, when he resigned to become Minister of Foreign Affairs, becoming the first woman to serve as president of the National Assembly. The two had been in a romantic relationship since the 1990s when Flores was Hugo Chávez’s lawyer following the 1992 Venezuela coup d’état attempts and were married in July 2013 months after Maduro became president. While they have no children together, Maduro has three step-children from his wife’s first marriage to Walter Ramón Gavidia; Walter Jacob, Yoswel, and Yosser.
+   `,
     comments: [
       {
         user: `Benjamin`,
@@ -634,10 +639,14 @@ export const blogPosts = [
   {
     id: 3,
     img: blogImg3,
-    title: ` 6 Strategies to Avoid High Legal Expenses.`,
-    article: `Starting a new venture can be exciting and challenging. It is important that you hire a lawyer too as all companies, irrespective of their size needs legal representation. When you start your business, you will find that you need legal guidance at every step and at different phases of the business life, from the initial incorporation to raising capital for expansion to hiring employees, you need the services of a good lawyer. It goes without saying that most businessmen cannot handle the legal matters in a way that professional and competent lawyers can.
-    You need to find a law office so that you can find the best representation that will be best for your business needs and is also affordable. One of the important thing that you need to consider is that the lawyer you hire is specialized in the industry you are starting a business. The lawyer will have clear idea about the industry and will know about the legal obstacles that you can face. The lawyer will be able to help your startup by covering all the legal tracks right from the start, so that you can grow your business without having to worry about any legal loopholes that may threaten dream venture.
-    We can also help you with lawsuits against negligent parties for different issues such as inadequate security, wrong hiring practices and also lawsuits against schools, companies, nursing homes, employers, hotels, apartment complexes, say care centres and more. You can get quotation from several lawyers and choose the one that best fits your budget. But ensure that you choose a competent lawyer by interviewing them before hiring. bRemember that an efficient lawyer can make a big difference to your case, so it is important that you spend some time in finding the best lawyer to seek advice from for your legal matters.`,
+    title: ` 6 tips to avoid expensive legal advice`,
+    article: `If you need legal advice for your business or personal matters, hiring quality and professional lawyers may cost you a lot of money. But, it is always advisable to opt for quality legal services. Here are some tips that will help you to avoid the high cost of legal advice. If you belong to the low-income group, you can make use of a large network of legal aid programs that operate on federal agents. You can use these programs and get free legal advice for your problem.
+    We can also help you with lawsuits against negligent parties for different issues such as inadequate security, wrong hiring practices and also lawsuits against schools, companies, nursing homes, employers, hotels, apartment complexes, say care centers and more. You can get quotations from several lawyers and choose the one that best fits your budget. But ensure that you choose a competent lawyer by interviewing them before hiring. Remember that an efficient lawyer can make a big difference to your case, so it is important that you spend some time in finding the best lawyer to seek advice from for your legal matters.
+    
+    We can also help you with lawsuits against negligent parties for different issues such as inadequate security, wrong hiring practices and also lawsuits against schools, companies, nursing homes, employers, hotels, apartment complexes, say care centers and more.
+    
+    Many online self-help legal websites provide free legal advice to people. You can submit your questions online on these websites and then they are answered by lawyers or paralegals.
+    `,
     comments: [
       {
         user: `Benjamin`,
@@ -670,10 +679,11 @@ export const blogPosts = [
   {
     id: 5,
     img: blogImg3,
-    title: ` 6 Strategies to Avoid High Legal Expenses.`,
-    article: `Starting a new venture can be exciting and challenging. It is important that you hire a lawyer too as all companies, irrespective of their size needs legal representation. When you start your business, you will find that you need legal guidance at every step and at different phases of the business life, from the initial incorporation to raising capital for expansion to hiring employees, you need the services of a good lawyer. It goes without saying that most businessmen cannot handle the legal matters in a way that professional and competent lawyers can.
-    You need to find a law office so that you can find the best representation that will be best for your business needs and is also affordable. One of the important thing that you need to consider is that the lawyer you hire is specialized in the industry you are starting a business. The lawyer will have clear idea about the industry and will know about the legal obstacles that you can face. The lawyer will be able to help your startup by covering all the legal tracks right from the start, so that you can grow your business without having to worry about any legal loopholes that may threaten dream venture.
-    We can also help you with lawsuits against negligent parties for different issues such as inadequate security, wrong hiring practices and also lawsuits against schools, companies, nursing homes, employers, hotels, apartment complexes, say care centres and more. You can get quotation from several lawyers and choose the one that best fits your budget. But ensure that you choose a competent lawyer by interviewing them before hiring. bRemember that an efficient lawyer can make a big difference to your case, so it is important that you spend some time in finding the best lawyer to seek advice from for your legal matters.`,
+    title: `What services are available for crime victims`,
+    article: `It is important that you hire a lawyer too as all companies, irrespective of their size, need legal representation. When you start your business, you will find that you need legal guidance at every step and at different phases of the business life, from the initial incorporation to raising capital for expansion to hiring employees, you need the services of a good lawyer. It goes without saying that most businessmen cannot handle the legal matters in a way that professional and competent lawyers can.
+    Many online self-help legal websites provide free legal advice to people. You can submit your questions online on these websites and then they are answered by lawyers or paralegals.
+    We can also help you with lawsuits against negligent parties for different issues such as inadequate security, wrong hiring practices and also lawsuits against schools, companies, nursing homes, employers, hotels, apartment complexes, say care centers and more. You can get quotations from several lawyers and choose the one that best fits your budget. But ensure that you choose a competent lawyer by interviewing them before hiring. bRemember that an efficient lawyer can make a big difference to your case, so it is important that you spend some time in finding the best lawyer to seek advice from for your legal matters.
+    `,
     comments: [
       {
         user: `Benjamin`,
@@ -688,10 +698,12 @@ export const blogPosts = [
   {
     id: 6,
     img: blogImg3,
-    title: ` 6 Strategies to Avoid High Legal Expenses.`,
-    article: `Starting a new venture can be exciting and challenging. It is important that you hire a lawyer too as all companies, irrespective of their size needs legal representation. When you start your business, you will find that you need legal guidance at every step and at different phases of the business life, from the initial incorporation to raising capital for expansion to hiring employees, you need the services of a good lawyer. It goes without saying that most businessmen cannot handle the legal matters in a way that professional and competent lawyers can.
-    You need to find a law office so that you can find the best representation that will be best for your business needs and is also affordable. One of the important thing that you need to consider is that the lawyer you hire is specialized in the industry you are starting a business. The lawyer will have clear idea about the industry and will know about the legal obstacles that you can face. The lawyer will be able to help your startup by covering all the legal tracks right from the start, so that you can grow your business without having to worry about any legal loopholes that may threaten dream venture.
-    We can also help you with lawsuits against negligent parties for different issues such as inadequate security, wrong hiring practices and also lawsuits against schools, companies, nursing homes, employers, hotels, apartment complexes, say care centres and more. You can get quotation from several lawyers and choose the one that best fits your budget. But ensure that you choose a competent lawyer by interviewing them before hiring. bRemember that an efficient lawyer can make a big difference to your case, so it is important that you spend some time in finding the best lawyer to seek advice from for your legal matters.`,
+    title: ` Were you involved in a car accident?`,
+    article: `If you are a victim of crime, you need the help of a professional lawyer who is responsive and compassionate.  While you cannot stop crime from happening, you can help others as your lawsuits against the responsible perpetrator will help them to improve their security and ensure that such crimes do not happen in the future.
+    Many online self-help legal websites provide free legal advice to people. You can submit your questions online on these websites and then they are answered by lawyers or paralegals.
+    We can also help you with lawsuits against negligent parties for different issues such as inadequate security, wrong hiring practices and also lawsuits against schools, companies, nursing homes, employers, hotels, apartment complexes, say care centers and more. You can get quotations from several lawyers and choose the one that best fits your budget.
+    But ensure that you choose a competent lawyer by interviewing them before hiring. bRemember that an efficient lawyer can make a big difference to your case, so it is important that you spend some time in finding the best lawyer to seek advice from for your legal matters.
+    `,
     comments: [
       {
         user: `Benjamin`,
