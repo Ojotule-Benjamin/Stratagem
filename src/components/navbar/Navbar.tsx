@@ -14,7 +14,7 @@ const Navbar = () => {
   let location = useLocation();
 
   return (
-    <div className="bg-primary_color_white w-full h-24 md:h-[120px] py-0 md:py-1 lg:py-1 px-2 md:px-5 lg:px-9 flex items-center justify-between z-0">
+    <div className="bg-primary_color_white w-full h-24 md:h-[120px] py-0 md:py-1 lg:py-1 px-2 md:px-5 lg:px-9 flex items-center justify-between">
       <Link to={HOME}>
         <div className=" w-full h-16 flex items-center justify-center cursor-pointer ">
           <img src={logo} alt="logo" className="w-16 h-16 md:w-20 md:h-24 " />
@@ -73,7 +73,7 @@ const Navbar = () => {
 
       {/* mobile mobile */}
       {!open && (
-        <ul className="w-full h-[calc(100vh-6rem)] z-20 bg-primary_color_white flex flex-col gap-5 items-center justify-center absolute top-24 left-0 right-0 transition-transform transform ease-in-out duration-5000">
+        <ul className=" w-full h-[calc(100vh-6rem)] bg-primary_color_white flex flex-col gap-5 items-center justify-center absolute top-24 left-0 right-0 transition-transform transform ease-in-out duration-5000">
           {navLinks.map((link) => {
             return (
               <li

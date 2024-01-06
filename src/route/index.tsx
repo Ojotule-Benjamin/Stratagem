@@ -31,10 +31,11 @@ export const AppRouter = () => {
   //LAYOUT
   const Layout = () => {
     return (
-      <div className=" ">
+      <div>
         <Navbar />
 
         <Outlet />
+
         <Footer />
       </div>
     );
