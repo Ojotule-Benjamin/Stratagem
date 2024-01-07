@@ -22,10 +22,10 @@ const OurMission = () => {
         landscape, one case at a time.
       </p>
       <Marquee loop={0} autoFill={true} pauseOnClick={true}>
-        <div className=" w-full h-auto flex items-center justify-center">
+        <div className=" w-1/2 lg:w-full h-auto flex items-center justify-center">
           {images.map((image) => {
             return (
-              <img src={image} alt="" className="w-96 h-96 mx-4" key={image} />
+              <img src={image} alt="" className="w-80 h-96 mx-4" key={image} />
             );
           })}
         </div>

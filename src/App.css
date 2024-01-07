@@ -4,3 +4,31 @@ select {
   /* -webkit-appearance: none; */
   /* background-position-x: 244px; */
 }
+
+.second {
+  quotes: "“" "”";
+  position: relative;
+  padding-left: 40px;
+
+  &::before {
+    content: open-quote;
+    font-size: 6em;
+    color: #e9b903;
+    position: absolute;
+    top: 0px;
+    left: 0;
+  }
+
+  &::after {
+    content: close-quote;
+    font-size: 6em;
+    bottom: -40px;
+    position: absolute;
+    color: #e9b903;
+  }
+}
+
+.second::before,
+.second::after {
+  color: #e9b903;
+}

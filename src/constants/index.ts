@@ -222,7 +222,10 @@ export const practiceAreas = [
     id: 4,
     title: "Real Estate Practice",
     desc: `Our Real Estate services focus on expertly navigating property transactions. With a our legal team, we provide guidance on acquisitions, leasing, development, and beyond.`,
-    overview: `Our Firm has assembled a leading property consultant to deliver sterling results for our Clients. Our Property department has advised and consulted for top property firms, estate developers and private property buyers. Our firm is well experienced in the intricacies of property due diligence, perfection of titles, obtaining necessary approvals and permits for estate development etc. Our Infrastructure expertise covers power generation and distribution projects, roads, ports, transit, telecommunications, oil and gas, aviation, waste management and railways. We assist clients in public/private partnerships, hybrid financings, blending elements of cash-flow lending and project finance. We are regularly involved in complex capital structures with debt/equity co-investment and sophisticated inter-investor/creditor arrangements`,
+    overview: `Our Firm has assembled a leading property consultant to deliver sterling results for our Clients. Our Property department has advised and consulted for top property firms, 
+    estate developers and private property buyers. Our firm is well experienced in the intricacies of property due diligence, perfection of titles, obtaining necessary approvals and permits for estate development etc. 
+    Our Infrastructure expertise covers power generation and distribution projects, roads, ports, transit, telecommunications, oil and gas, aviation, waste management and railways. We assist clients in public/private partnerships, 
+    hybrid financings, blending elements of cash-flow lending and project finance. We are regularly involved in complex capital structures with debt/equity co-investment and sophisticated inter-investor/creditor arrangements`,
     pros: [
       {
         heading: "Legal Expertise",
