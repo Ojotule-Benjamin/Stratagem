@@ -1,14 +1,6 @@
 import React from "react";
 import Button from "../Button";
 
-// export type OurPracticeAreaCardProps = {
-//   title: string;
-//   desc: string;
-//   overview: string;
-//   pros : string[]
-//   onClick?: () => void;
-// };
-
 interface PracticeAreaProsConsItem {
   heading: string;
   text: string;
@@ -26,8 +18,8 @@ interface OurPracticeAreaCardProps {
 
 const OurPracticeAreaCard: React.FC<OurPracticeAreaCardProps> = (props) => {
   return (
-    <div className="basis-80 h-[313px] p-5 bg-[#1A212C] border-none flex flex-col items-center justify-center">
-      <h3 className=" font-playFairDisplay font-bold text-xl lg:text-2xl mb-3 text-text_color_white">
+    <div className="w-80  h-80 p-2 md:p-5 bg-[#1A212C] border-none flex flex-col items-center justify-center">
+      <h3 className=" font-playFairDisplay font-bold text-center text-xl lg:text-2xl mb-3 text-text_color_white">
         {props.title}
       </h3>
       <p className=" font-montserrat font-normal text-sm mb-6 text-center text-[#D7D7D7]">

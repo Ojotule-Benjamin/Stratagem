@@ -11,15 +11,25 @@ import { caseStudies } from "../../constants";
 import CaseStudiesCard, {
   CaseStudiesCardProps,
 } from "../../components/caseStudies/CaseStudiesCard";
-import BlogPostCard from "../../components/blog/BlogPostCard";
+import BlogPostCard, {
+  blogPostCardProps,
+} from "../../components/blog/BlogPostCard";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const navigate = useNavigate();
 
-  const navigateToCaseStudy = (title: string, data: CaseStudiesCardProps) => {
-    navigate(`/case-studies/case-study/${title}`, { state: { data } });
+  const navigateToCaseStudy = (
+    title: string,
+    data: CaseStudiesCardProps | blogPostCardProps
+  ) => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate(
+      `/case-studies/case-study/${title}` || `/blog/blog-post/${title}`,
+      { state: { data } }
+    );
   };
+
   return (
     <div>
       <Hero />
@@ -60,6 +70,7 @@ const Home = () => {
               title={blogPost.title}
               img={blogPost.img}
               article={blogPost.article}
+              onClick={() => navigateToCaseStudy(blogPost.title, blogPost)}
             />
           ))}
         </div>

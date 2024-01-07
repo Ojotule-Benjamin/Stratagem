@@ -3,7 +3,7 @@ import Button from "../Button";
 import arrow from "../../assets/svgs/arrow.svg";
 import Dedication from "../Dedication";
 import { REGULAR_PATHS } from "../../route/paths";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const variants = {
@@ -24,6 +24,13 @@ const variants = {
 
 const AboutUs = () => {
   const { OUR_FIRM } = REGULAR_PATHS;
+
+  const navigate = useNavigate();
+
+  const handleNavigation = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate(OUR_FIRM);
+  };
   return (
     <motion.div
       variants={variants}
@@ -31,7 +38,7 @@ const AboutUs = () => {
       //animate="animate"
       whileInView="animate"
       viewport={{ once: true }}
-      className="w-full h-auto lg:h-[700px] my-8 bg-text_color_white p-8 md:p-12 lg:p-16 flex flex-col lg:flex-row items-center justify-center gap-5"
+      className="w-full h-auto lg:h-[700px] my-8 bg-text_color_white p-5 md:p-12 lg:p-16 flex flex-col lg:flex-row items-center justify-center gap-5"
     >
       {/* left */}
       <motion.div
@@ -46,10 +53,10 @@ const AboutUs = () => {
         <p className=" font-playFairDisplay font-bold text-base text-secondary_color">
           About Us
         </p>
-        <h3 className=" font-playFairDisplay font-bold text-xl md:text-4xl text-center lg:text-start text-primary_color  pr-0 lg:pr-20">
+        <h3 className=" font-playFairDisplay font-bold text-lg md:text-4xl text-center lg:text-start text-primary_color  pr-0 lg:pr-20">
           We are a Nigerian based law firm focused on excellence.
         </h3>
-        <p className=" w-full font-montserrat font-normal text-base text-justify">
+        <p className=" w-full font-montserrat font-normal text-sm md:text-base text-justify">
           STRATAGEM LP officially became a registered fully-service Law Firm in
           Nigeria on September 17th, 2008. Our operational reach extends to
           Abuja, Lagos, Makurdi, Lokoja, and Suleja.
@@ -69,13 +76,13 @@ const AboutUs = () => {
           dedicated to making our firm the ultimate workplace, where talent
           flourishes.
         </p>
-        <Link to={OUR_FIRM}>
-          <Button
-            text="Learn more"
-            icon={<img src={arrow} alt="icon" />}
-            className=" w-36 lg:w-36 h-12 bg-primary_color text-text_color_white hover:bg-secondary_color hover:text-primary_color font-montserrat text-sm lg:text-sm font-medium"
-          />
-        </Link>
+
+        <Button
+          onClick={handleNavigation}
+          text="Learn more"
+          icon={<img src={arrow} alt="icon" />}
+          className=" w-36 lg:w-36 h-12 bg-primary_color text-text_color_white hover:bg-secondary_color hover:text-primary_color font-montserrat text-sm lg:text-sm font-medium"
+        />
       </div>
     </motion.div>
   );

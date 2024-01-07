@@ -1,13 +1,20 @@
 import React from "react";
 import arrow from "../../assets/svgs/arrow.svg";
 import Button from "../../components/Button";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { REGULAR_PATHS } from "../../route/paths";
 import { motion } from "framer-motion";
 
 const Hero = () => {
   const { CASE_STUDIES } = REGULAR_PATHS;
   //const list = { visible: { opacity: 0 } };
+
+  const navigate = useNavigate();
+
+  const handleNavigation = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate(CASE_STUDIES);
+  };
 
   return (
     <div className=" w-full h-[calc(100vh-6rem)] md:h-[calc(100vh-120px)] flex flex-col items-center justify-center bg-hero-lg bg-cover bg-center bg-secondary_color">
@@ -37,7 +44,7 @@ const Hero = () => {
           whileInView={{ opacity: 1, scale: 1, x: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className=" px-5 md:px-8 lg:px-[200px] font-montserrat font-normal leading-2 text-text_color_white text-center text-xs md:text-lg"
+          className=" px-3 md:px-8 lg:px-[200px] font-montserrat font-normal leading-2 text-text_color_white text-center text-xs sm:text-sm md:text-lg"
         >
           Committed to upholding justice, Stratagem LP stands as your unwavering
           partner in the legal realm. Our experienced team of legal
@@ -47,13 +54,12 @@ const Hero = () => {
           are prepared to advocate for your rights and safeguard your interests.
         </motion.p>
 
-        <Link to={CASE_STUDIES}>
-          <Button
-            text="Explore Our Case Victories"
-            icon={<img src={arrow} alt="icon" />}
-            className=" w-60 md:w-72 mt-5 lg:w-[302px] h-12  md:h-16 font-montserrat font-medium text-text_color_white hover:text-primary_color text-sm md:text-lg bg-primary_color hover:bg-text_color_white flex items-center justify-center"
-          />
-        </Link>
+        <Button
+          onClick={handleNavigation}
+          text="Explore Our Case Victories"
+          icon={<img src={arrow} alt="icon" />}
+          className=" w-60 md:w-72 mt-5 lg:w-[302px] h-12  md:h-16 font-montserrat font-medium text-text_color_white hover:text-primary_color text-sm md:text-lg bg-primary_color hover:bg-text_color_white flex items-center justify-center"
+        />
       </div>
     </div>
   );
