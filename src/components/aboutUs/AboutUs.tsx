@@ -31,6 +31,7 @@ const AboutUs = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
     navigate(OUR_FIRM);
   };
+
   return (
     <motion.div
       variants={variants}

@@ -19,15 +19,16 @@ import { useNavigate } from "react-router-dom";
 const Home = () => {
   const navigate = useNavigate();
 
-  const navigateToCaseStudy = (
-    title: string,
-    data: CaseStudiesCardProps | blogPostCardProps
-  ) => {
+  //navigate to case study post
+  const navigateToCaseStudy = (title: string, data: CaseStudiesCardProps) => {
     window.scrollTo({ top: 0, behavior: "smooth" });
-    navigate(
-      `/case-studies/case-study/${title}` || `/blog/blog-post/${title}`,
-      { state: { data } }
-    );
+    navigate(`/case-studies/case-study/${title}`, { state: { data } });
+  };
+
+  //navigate to blog post
+  const navigateToBlogPost = (title: string, data: blogPostCardProps) => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate(`/blog/blog-post/${title}`, { state: { data } });
   };
 
   return (
@@ -70,7 +71,7 @@ const Home = () => {
               title={blogPost.title}
               img={blogPost.img}
               article={blogPost.article}
-              onClick={() => navigateToCaseStudy(blogPost.title, blogPost)}
+              onClick={() => navigateToBlogPost(blogPost.title, blogPost)}
             />
           ))}
         </div>

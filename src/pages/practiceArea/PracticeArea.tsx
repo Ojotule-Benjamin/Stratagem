@@ -6,7 +6,6 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { ArrowDown } from "../../assets/icons";
 import { practiceAreas } from "../../constants";
 
@@ -40,7 +39,7 @@ const PracticeArea = () => {
             >
               <div className=" w-full lg:w-1/2 flex items-center justify-start text-center lg:text-start mb-3 lg:mb-0 mr-0 lg:mr-20 ">
                 <img src={checkMark} alt="check mark" />
-                <h6 className=" ml-4 font-playFairDisplay font-semibold leading-4 tracking-wide text-xl text-secondary_color">
+                <h6 className=" ml-4 font-playFairDisplay font-semibold leading-4 text-xl text-secondary_color">
                   {pro.heading}
                 </h6>
               </div>

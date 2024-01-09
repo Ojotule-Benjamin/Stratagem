@@ -34,7 +34,6 @@ const OurPracticeArea = () => {
     page: number
   ) => {
     setCurrentPage(page);
-    // window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const startIndex = (currentPage - 1) * itemsPerPage;

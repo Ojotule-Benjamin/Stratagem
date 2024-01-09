@@ -3,11 +3,10 @@ import arrow from "../../assets/svgs/arrow.svg";
 import Button from "../../components/Button";
 import { useNavigate } from "react-router-dom";
 import { REGULAR_PATHS } from "../../route/paths";
-import { motion } from "framer-motion";
+import { animate, motion } from "framer-motion";
 
 const Hero = () => {
   const { CASE_STUDIES } = REGULAR_PATHS;
-  //const list = { visible: { opacity: 0 } };
 
   const navigate = useNavigate();
 
@@ -21,7 +20,6 @@ const Hero = () => {
       <div className=" w-full h-auto flex flex-col items-center justify-center gap-2 md:gap-5 lg:gap-5">
         <motion.h4
           initial={{ scale: 0 }}
-          // initial={{ scale: 0, x: -500 }}
           whileInView={{ opacity: 1, scale: 1, x: 0 }}
           transition={{ duration: 1.5 }}
           viewport={{ once: true }}
