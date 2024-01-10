@@ -63,7 +63,7 @@ const Home = () => {
         title=" Latest News"
         description="Demonstrating Our Expertise"
       >
-        <div className=" w-full flex items-center justify-center flex-wrap basis-1 gap-14 md:gap-7">
+        <div className=" w-full flex items-center justify-center flex-wrap gap-14 md:gap-7 mb-10 lg:mb-20">
           {blogPosts.slice(0, 3).map((blogPost) => (
             <BlogPostCard
               key={blogPost.id}

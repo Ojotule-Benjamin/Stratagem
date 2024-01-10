@@ -1,6 +1,17 @@
 import React, { useRef, useEffect } from "react";
 import lottie, { AnimationItem } from "lottie-web";
 import Animation from "../../assets/lottie/Animation.json";
+import { motion } from "framer-motion";
+
+const leftVariant = {
+  visible: { scale: 1, x: 0, y: 0, opacity: 1 },
+  hidden: { scale: 0, x: -100, y: 100, opacity: 0.5 },
+};
+
+const rightVariant = {
+  visible: { scale: 1, x: 0, y: 0, opacity: 1 },
+  hidden: { scale: 0.8, x: 100, y: 100, opacity: 0.5 },
+};
 
 const OurStory = () => {
   const container = useRef<HTMLDivElement | null>(null);
@@ -26,15 +37,27 @@ const OurStory = () => {
     };
   }, []);
   return (
-    <div className=" w-full h-auto lg:h-[628px] px-5 md:px-16 lg:px-11 my-12 lg:my-24 bg-text_color_white flex flex-col lg:flex-row items-center justify-center gap-5 lg:gap-8">
+    <div className=" w-full h-auto lg:h-[31rem] px-5 md:px-16 lg:px-11 my-12 lg:my-24 bg-text_color_white flex flex-col lg:flex-row items-center justify-center gap-5 lg:gap-8">
       {/* left */}
-      <div
+      <motion.div
+        variants={leftVariant}
+        initial="hidden"
+        whileInView="visible"
+        transition={{ duration: 1.5 }}
+        viewport={{ once: true }}
         className="w-full h-full bg-[#1E293B] border-[20px] md:border-[50px] lg:border-[50px] border-[#1E293B] relative"
         ref={container}
         id="animation-container "
-      ></div>
+      ></motion.div>
       {/* right */}
-      <div className="w-full h-full flex flex-col items-center lg:items-start justify-center">
+      <motion.div
+        variants={rightVariant}
+        initial="hidden"
+        whileInView="visible"
+        transition={{ duration: 3 }}
+        viewport={{ once: true }}
+        className="w-full h-full flex flex-col items-center lg:items-start justify-center"
+      >
         <h3 className=" font-playFairDisplay font-bold text-2xl text-primary_color">
           Our Values
         </h3>
@@ -55,7 +78,7 @@ const OurStory = () => {
           fostering a conducive working environment for our clients, and
           investing accordingly.
         </p>
-      </div>
+      </motion.div>
     </div>
   );
 };

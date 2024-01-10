@@ -58,7 +58,7 @@ const BlogPost = () => {
   return (
     <div>
       <CustomHero title={data.title} className=" bg-hero-blog" />
-      <div className=" w-full px-5 md:px-5 lg:px-11 pb-20 flex flex-col lg:flex-row items-start justify-between gap-16 md:gap-5 lg:gap-16">
+      <div className=" mt-10 w-full px-5 md:px-5 lg:px-11 pb-20 flex flex-col lg:flex-row items-start justify-between gap-16 md:gap-5 lg:gap-16">
         <div className=" w-full lg:w-[70%]">
           <p className=" font-montserrat  font-normal text-base text-justify text-[#1F2732] ">
             {data.article}

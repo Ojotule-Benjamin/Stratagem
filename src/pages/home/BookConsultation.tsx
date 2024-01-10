@@ -3,6 +3,16 @@ import Button from "../../components/Button";
 import dash from "../../assets/svgs/dash.svg";
 import { motion } from "framer-motion";
 
+const leftVariant = {
+  visible: { scale: 1, x: 0, y: 0, opacity: 1 },
+  hidden: { scale: 0, x: -100, y: 100, opacity: 0.5 },
+};
+
+const rightVariant = {
+  visible: { scale: 1, x: 0, y: 0, opacity: 1 },
+  hidden: { scale: 0, x: 100, y: 100, opacity: 0.5 },
+};
+
 type FormDataProps = {
   firstName: string;
   lastName: string;
@@ -44,7 +54,14 @@ const BookConsultation = () => {
   return (
     <div className=" w-full h-auto bg-secondary_color lg:px-32 py-7 lg:py-14 flex flex-col lg:flex-row items-start justify-start">
       {/* left */}
-      <motion.div className=" w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:items-start lg:justify-start ">
+      <motion.div
+        variants={leftVariant}
+        initial="hidden"
+        whileInView="visible"
+        transition={{ duration: 1.5 }}
+        viewport={{ once: true }}
+        className=" w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:items-start lg:justify-start "
+      >
         <p className=" font-playFairDisplay font-bold text-base text-text_color_white ">
           Stratagem LP
         </p>
@@ -80,7 +97,14 @@ const BookConsultation = () => {
       </motion.div>
 
       {/* right */}
-      <motion.div className=" w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:items-start lg:justify-start">
+      <motion.div
+        variants={rightVariant}
+        initial="hidden"
+        whileInView="visible"
+        transition={{ duration: 2 }}
+        viewport={{ once: true }}
+        className=" w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:items-start lg:justify-start"
+      >
         <p className=" font-playFairDisplay font-bold text-base text-text_color_white ">
           Need a Lawyer
         </p>

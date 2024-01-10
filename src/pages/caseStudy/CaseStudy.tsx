@@ -50,55 +50,10 @@ const CaseStudy = () => {
                 {data.case.aboutTheCase}
               </p>
             </div>
-            {/* clients need */}
-            <div className="w-full flex flex-col items-center justify-center lg:items-start lg:justify-center">
-              <h4 className="font-playFairDisplay font-bold text-primary_color text-xl lg:text-4xl pb-2 md:pb-4">
-                Clients Need
-              </h4>
-              <p className=" font-montserrat font-normal text-sm lg:text-lg text-text_color_blackII text-justify">
-                {data.case.clientsNeed}
-              </p>
-            </div>
-            {/* challenges in the case */}
-            <div className="w-full flex flex-col items-center justify-center lg:items-start lg:justify-center">
-              <h4 className=" font-playFairDisplay font-bold text-primary_color text-xl lg:text-4xl pb-2 md:pb-4">
-                Challenges In The Case
-              </h4>
-              <p className=" font-montserrat font-normal text-sm lg:text-lg text-text_color_blackII text-justify">
-                {data.case.challenges}
-              </p>
-            </div>
-            {/* how we won */}
-            <div className="w-full flex flex-col items-center justify-center lg:items-start lg:justify-center">
-              <h4 className=" font-playFairDisplay font-bold text-primary_color text-xl lg:text-4xl pb-2 md:pb-4">
-                How We Won
-              </h4>
-              <p className=" font-montserrat font-normal text-sm lg:text-lg text-text_color_blackII text-justify">
-                {data.case.howWeWon}
-              </p>
-            </div>
           </div>
           {/* right */}
           <div className="hidden lg:flex flex-col items-center justify-center w-2/5 h-full gap-14">
-            <div className="w-full h-[400px] ">
-              <img
-                src={data.img}
-                alt=""
-                className=" w-full h-full object-cover"
-              />
-            </div>
-            <div
-              ref={container}
-              id="animation-container "
-              className="w-full h-[800px] bg-[#000000]"
-            ></div>
-            <div className="w-full h-[400px] ">
-              <img
-                src={data.img}
-                alt=""
-                className=" w-full h-full object-cover"
-              />
-            </div>
+            <img src={data.img} alt="" className=" w-full h-80 object-cover" />
           </div>
         </div>
       </div>

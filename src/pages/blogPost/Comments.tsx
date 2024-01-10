@@ -13,7 +13,7 @@ const Comments: React.FC<commentsProps> = (props) => {
   return (
     <div
       key={props.comments.user}
-      className=" max-w-full h-44 lg:h-36 flex items-center justify-center gap-2 lg:gap-0 p-2 lg:p-4 rounded-md bg-[#C4C4C44D]"
+      className=" max-w-full h-auto lg:h-auto flex items-center justify-center gap-2 lg:gap-0 p-2 lg:p-4 rounded-md bg-[#C4C4C44D]"
     >
       <div className=" w-20 lg:w-40 h-full flex flex-col items-center justify-center">
         <img

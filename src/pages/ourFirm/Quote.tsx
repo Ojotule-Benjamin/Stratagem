@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 import team_member1 from "../../assets/svgs/team_member1.svg";
 
@@ -11,7 +12,13 @@ const Quote = () => {
       <div className="w-full flex flex-col lg:flex-row items-center justify-center">
         <img src={team_member1} alt="" />
 
-        <div className="container w-full h-72 p-20 flex flex-col items-start justify-start bg-secondary_color relative -left-12">
+        <motion.div
+          initial={{ scale: 0.5, x: 50 }}
+          whileInView={{ opacity: 1, scale: 1, x: 0 }}
+          transition={{ duration: 1.5 }}
+          viewport={{ once: true }}
+          className="container w-full h-72 p-20 flex flex-col items-start justify-start bg-secondary_color relative -left-12"
+        >
           <h3 className="second font-montserrat font-normal text-xl text-white">
             At Stratagem, we're all about pursuing justice by combining legal
             expertise and innovative solutions. We see our clients as
@@ -24,7 +31,7 @@ const Quote = () => {
             Ejiga Benjamin Ochuma,{" "}
             <span className=" text-primary_color">Managing Partner</span>{" "}
           </h1>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

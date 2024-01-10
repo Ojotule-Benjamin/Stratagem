@@ -29,7 +29,7 @@ const SuggestedPost: React.FC<SuggestedPostProps> = ({ suggestedPost }) => {
   return (
     <div
       onClick={navigatetoBlogPost}
-      className={`w-full h-40 border border-solid border-[#F2EEEE] bg-[#F2EEEE] shadow-lg mb-2 lg:mb-5 flex  items-center justify-center cursor-pointer relative ${
+      className={`w-full h-40 border border-solid border-[#F2EEEE] bg-[#F2EEEE] shadow-lg mb-10 flex  items-center justify-center cursor-pointer relative ${
         suggestedPost.id === 0 ? "bg-none " : "bg-white "
       } `}
     >

@@ -5,6 +5,12 @@ import telephoneIcon from "../../assets/svgs/telephoneIcon.svg";
 import mailIcon from "../../assets/svgs/mailIcon.svg";
 import locationIcon from "../../assets/svgs/locationIcon.svg";
 import contactImg from "../../assets/svgs/contactImg.svg";
+import { motion } from "framer-motion";
+
+const leftVariant = {
+  visible: { scale: 1, x: 0, y: 0, opacity: 1 },
+  hidden: { scale: 0, x: -100, y: 100, opacity: 0.5 },
+};
 
 type dataProps = {
   name: string;
@@ -32,47 +38,78 @@ const Contact = () => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log(data);
+  // const handleSubmit = (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   console.log(data);
 
-    // Clear the form after submission
-    setData({
-      name: "",
-      email: "",
-      phoneNumber: "",
-      subject: "",
-      message: "",
-    });
-  };
+  //   // Clear the form after submission
+  //   setData({
+  //     name: "",
+  //     email: "",
+  //     phoneNumber: "",
+  //     subject: "",
+  //     message: "",
+  //   });
+  // };
 
   return (
     <div>
       <CustomHero title="CONTACT US" className=" bg-hero-blog" />
       <div className="w-full px-5 md:px-14 lg:px-28 mb-12 lg:mb-24 flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-12 ">
-        <div className=" w-full md:w-1/2 lg:w-full h-[270px] md:h-[350px] lg:h-[376px] p-4 flex items-center justify-center border-[#000] border-r-0 border-8">
+        <motion.div
+          variants={leftVariant}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 1.5 }}
+          viewport={{ once: true }}
+          className=" w-full md:w-1/2 lg:w-full h-[270px] md:h-[350px] lg:h-[376px] p-4 flex items-center justify-center border-[#000] border-r-0 border-8"
+        >
           <img src={contactImg} alt="" />
-        </div>
+        </motion.div>
         <div className=" w-full flex flex-col items-start justify-start gap-2">
-          <div className=" w-full flex items-center justify-start ">
+          <motion.div
+            initial={{ scale: 0.5, x: 50 }}
+            whileInView={{ opacity: 1, scale: 1, x: 0 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+            className=" w-full flex items-center justify-start "
+          >
             <span className=" w-3 h-3 flex items-center justify-center bg-primary_color "></span>
             <p className=" font-montserrat font-medium text-sm lg:text-lg text-[#37393F] pl-1">
               Let's Talk
             </p>
-          </div>
-          <h2 className=" font-montserrat font-bold text-2xl lg:text-4xl text-[#1F2732]">
+          </motion.div>
+          <motion.h2
+            initial={{ scale: 0.5, x: 50 }}
+            whileInView={{ opacity: 1, scale: 1, x: 0 }}
+            transition={{ duration: 1.2 }}
+            viewport={{ once: true }}
+            className=" font-montserrat font-bold text-2xl lg:text-4xl text-[#1F2732]"
+          >
             Get In Touch With{" "}
             <span className=" text-primary_color">Stratagem LP</span>
-          </h2>
-          <p className=" font-montserrat font-normal text-base lg:text-lg text-[#7D7D7D] pb-4 lg:pb-8">
+          </motion.h2>
+          <motion.p
+            initial={{ scale: 0.5, x: 50 }}
+            whileInView={{ opacity: 1, scale: 1, x: 0 }}
+            transition={{ duration: 1.5 }}
+            viewport={{ once: true }}
+            className=" font-montserrat font-normal text-base lg:text-lg text-[#7D7D7D] pb-4 lg:pb-8"
+          >
             We're here to connect and assist you in every way possible. Whether
             you have inquiries about our legal services, wish to schedule a
             consultation, explore potential partnerships, or wish to provide
             feedback, please do not hesitate to get in touch with us. Our
             dedicated team is prepared to offer you timely and personalized
             assistance.
-          </p>
-          <div className="w-full flex flex-col items-start justify-start gap-4 lg:gap-7">
+          </motion.p>
+          <motion.div
+            initial={{ scale: 0.5, x: 50 }}
+            whileInView={{ opacity: 1, scale: 1, x: 0 }}
+            transition={{ duration: 1.8 }}
+            viewport={{ once: true }}
+            className="w-full flex flex-col items-start justify-start gap-4 lg:gap-7"
+          >
             <div className=" w-full flex items-center justify-start gap-2">
               <div className=" w-12 h-12 lg:w-[68px] lg:h-[68px] flex items-center justify-center rounded-full bg-primary_color">
                 <img src={telephoneIcon} alt="telephone icon" />
@@ -111,7 +148,7 @@ const Contact = () => {
                 <p>Anyaoku Street, Area 11, Garki Abuja.</p>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
 
@@ -127,7 +164,13 @@ const Contact = () => {
         </h3>
 
         <form className="w-full flex flex-col items-center justify-center gap-5 lg:gap-7">
-          <div className=" w-full flex flex-col lg:flex-row items-center justify-center gap-4 lg:gap-8">
+          <motion.div
+            initial={{ scale: 0.5, x: 50 }}
+            whileInView={{ opacity: 1, scale: 1, x: 0 }}
+            transition={{ duration: 1.5 }}
+            viewport={{ once: true }}
+            className=" w-full flex flex-col lg:flex-row items-center justify-center gap-4 lg:gap-8"
+          >
             <input
               name="yourname"
               value={data.name}
@@ -142,8 +185,14 @@ const Contact = () => {
               className=" w-full h-12 lg:h-16 px-4 lg:px-9 font-montserrat font-normal text-sm lg:text-lg text-[#37393F] bg-[#F8F8F8] border-[1px] border-[#DDD] outline-none"
               placeholder="Email Address"
             />
-          </div>
-          <div className=" w-full flex flex-col lg:flex-row items-center justify-center gap-4 lg:gap-8">
+          </motion.div>
+          <motion.div
+            initial={{ scale: 0.5, x: 50 }}
+            whileInView={{ opacity: 1, scale: 1, x: 0 }}
+            transition={{ duration: 1.5 }}
+            viewport={{ once: true }}
+            className=" w-full flex flex-col lg:flex-row items-center justify-center gap-4 lg:gap-8"
+          >
             <input
               name="phoneNumber"
               value={data.phoneNumber}
@@ -158,14 +207,18 @@ const Contact = () => {
               className=" w-full h-12 lg:h-16 px-4 lg:px-9 font-montserrat font-normal text-sm lg:text-lg text-[#37393F] bg-[#F8F8F8] border-[1px] border-[#DDD] outline-none"
               placeholder="Subject"
             />
-          </div>
-          <textarea
+          </motion.div>
+          <motion.textarea
+            initial={{ scale: 0.5, x: 50 }}
+            whileInView={{ opacity: 1, scale: 1, x: 0 }}
+            transition={{ duration: 1.5 }}
+            viewport={{ once: true }}
             name="message"
             value={data.message}
             onChange={handleChange}
             className=" w-full h-36 lg:h-56 p-4 lg:p-9 font-montserrat font-normal text-sm lg:text-lg text-[#37393F] bg-[#F8F8F8] border-[1px] border-[#DDD] outline-none"
             placeholder="Message"
-          ></textarea>
+          ></motion.textarea>
           <Button
             text="Submit"
             className=" w-[184px] h-16 mt-5 font-montserrat font-normal text-sm lg:text-lg text-white bg-[#1F2732]"
