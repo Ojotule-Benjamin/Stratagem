@@ -103,10 +103,22 @@ const AboutUs = () => {
         <p className=" font-playFairDisplay font-bold text-base text-secondary_color">
           About Us
         </p>
-        <h3 className=" font-playFairDisplay font-bold text-2xl md:text-4xl text-center lg:text-start text-primary_color  pr-0 lg:pr-20">
+        <motion.h3
+          initial={{ scale: 0.5, x: 50 }}
+          whileInView={{ opacity: 1, scale: 1, x: 0 }}
+          transition={{ duration: 1.2 }}
+          viewport={{ once: true }}
+          className=" font-playFairDisplay font-bold text-2xl md:text-4xl text-center lg:text-start text-primary_color  pr-0 lg:pr-20"
+        >
           We are a Nigerian based law firm focused on excellence.
-        </h3>
-        <p className=" w-full font-montserrat font-normal text-sm md:text-base text-justify">
+        </motion.h3>
+        <motion.p
+          initial={{ scale: 0.5, x: 50 }}
+          whileInView={{ opacity: 1, scale: 1, x: 0 }}
+          transition={{ duration: 1.5 }}
+          viewport={{ once: true }}
+          className=" w-full font-montserrat font-normal text-sm md:text-base text-justify"
+        >
           STRATAGEM LP officially became a registered fully-service Law Firm in
           Nigeria on September 17th, 2008. Our operational reach extends to
           Abuja, Lagos, Makurdi, Lokoja, and Suleja.
@@ -125,7 +137,7 @@ const AboutUs = () => {
           nurturing successful partnerships that stand the test of time. We are
           dedicated to making our firm the ultimate workplace, where talent
           flourishes.
-        </p>
+        </motion.p>
 
         <Button
           onClick={handleNavigation}

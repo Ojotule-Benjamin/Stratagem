@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../Button";
+import { motion } from "framer-motion";
 
 export type blogPostCardProps = {
   id: number;
@@ -19,7 +20,11 @@ const BlogPostCard: React.FC<blogPostCardProps> = ({
   className,
 }) => {
   return (
-    <div
+    <motion.div
+      initial={{ scale: 0.5, y: 50 }}
+      whileInView={{ opacity: 1, scale: 1, y: 0 }}
+      transition={{ duration: 2 }}
+      viewport={{ once: true }}
       className={` w-full md:w-96 h-auto px-6 md:px-0 lg:px-0 mb-7 lg:mb-7 ${className}`}
     >
       <img
@@ -49,7 +54,7 @@ const BlogPostCard: React.FC<blogPostCardProps> = ({
           className=" w-[183px] h-10 font-outfit font-medium text-sm bg-secondary_color text-text_color_white hover:bg-primary_color hover:text-secondary_color"
         />
       </div>
-    </div>
+    </motion.div>
   );
 };
 
