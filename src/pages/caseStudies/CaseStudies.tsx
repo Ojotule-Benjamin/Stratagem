@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import CustomHero from "../../components/CustomHero";
 import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
@@ -9,6 +9,14 @@ import { useNavigate } from "react-router-dom";
 
 const CaseStudies = () => {
   const navigate = useNavigate();
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 4;
+
+  const handlePageChange = (e: React.ChangeEvent<unknown>, page: number) => {
+    setCurrentPage(page);
+  };
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
 
   const navigateToCaseStudy = (title: string, data: CaseStudiesCardProps) => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -29,8 +37,13 @@ const CaseStudies = () => {
           />
         ))}
       </div>
-      <Stack spacing={2}>
-        <Pagination count={5} size="large" />
+      <Stack spacing={2} className="w-auto my-5 text-white ">
+        <Pagination
+          count={Math.ceil(caseStudies.length / itemsPerPage)}
+          page={currentPage}
+          onChange={handlePageChange}
+          size="large"
+        />
       </Stack>
     </div>
   );

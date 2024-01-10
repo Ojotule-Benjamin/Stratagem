@@ -33,7 +33,7 @@ const CustomHero: React.FC<CustomHeroProps> = ({ title, className }) => {
           whileInView={{ scale: 1, x: 1, y: 1 }}
           transition={{ duration: 1.5 }}
           viewport={{ once: true }}
-          className={`max-w-[700px] max-h-40 px-3 line-clamp-4 lg:line-clamp-2 overflow-hidden font-playFairDisplay font-semibold text-base md:text-4xl lg:text-5xl text-primary_color tracking-[3px] uppercase text-center `}
+          className={`max-w-[43rem] max-h-40 px-3 line-clamp-4 lg:line-clamp-2 overflow-hidden font-playFairDisplay font-semibold text-base md:text-4xl lg:text-5xl text-primary_color tracking-[3px] uppercase text-center `}
         >
           {title}
         </motion.h1>

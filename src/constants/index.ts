@@ -521,23 +521,9 @@ export const caseStudies = [
   {
     id: 0,
     img: caseStudies1,
-    title: `The Case of William Accused Corruption of Money at Gtb Bank`,
+    title: `EKWEKWUO V. ABDULLAHI & ORS Reported as (2020)LPELR-51363(CA)`,
     case: {
-      aboutTheCase: `Lorem ipsum dolor sit amet consectetur. 
-      Commodo pulvinar molestie pellentesque urna libero velit porta. 
-      Velit pellentesque hac gravida pellentesque est semper. 
-      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. Proin ac a cursus praesent. 
-      Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
-      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
-      Dolor elit nunc et purus quam amet laoreet eu risus.
-      Cum mattis mollis odio gravida adipiscing. 
-      Facilisis scelerisque non lacinia tincidunt faucibus tortor vel. 
-      Erat risus etiam quam pretium ornare. Semper orci arcu pulvinar adipiscing pretium. 
-      Erat facilisis dis arcu senectus sit mi fermentum eu aliquam. 
-      Felis neque posuere pharetra porttitor lacinia proin pretium. 
-      Et et pharetra tincidunt vel egestas risus sed mollis adipiscing. 
-      Lobortis risus mauris vitae pellentesque lobortis sapien. 
-      Mi convallis leo nisl pharetra quam arcu blandit. Metus nisl volutpat ut sed sit sit est. `,
+      aboutTheCase: `Is a Landmark case hinged on the validity of Allocation of Land by the Area Councils (Local Government) in the Federal Capital Territory. In this case commenced at the High Court of FCT IN 2011, we successfully argued that the FCT is like any other states and that the Area Council have the Power to allocate Land by issues the Customary Certificate of Occupancy like their Counterparts in every other state of the Federal in accordance with the Land Use Act. We won at both the High Court and the Court of Appeal and the case is presently pending at the Supreme Court `,
       clientsNeed: `Lorem ipsum dolor sit amet consectetur. 
       Commodo pulvinar molestie pellentesque urna libero velit porta. 
       Velit pellentesque hac gravida pellentesque est semper. 
@@ -580,23 +566,9 @@ export const caseStudies = [
   {
     id: 1,
     img: caseStudies2,
-    title: `The Case of William Accused Corruption of Money at Gtb Bank`,
+    title: `ASSET MANAGEMENT CORPORATION OF NIGERIA V. CHIEF ENGINEERS (NIG)LTD & ORS reported as (2023) LPELR-61121(CA) `,
     case: {
-      aboutTheCase: `Lorem ipsum dolor sit amet consectetur. 
-      Commodo pulvinar molestie pellentesque urna libero velit porta. 
-      Velit pellentesque hac gravida pellentesque est semper. 
-      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. Proin ac a cursus praesent. 
-      Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
-      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
-      Dolor elit nunc et purus quam amet laoreet eu risus.
-      Cum mattis mollis odio gravida adipiscing. 
-      Facilisis scelerisque non lacinia tincidunt faucibus tortor vel. 
-      Erat risus etiam quam pretium ornare. Semper orci arcu pulvinar adipiscing pretium. 
-      Erat facilisis dis arcu senectus sit mi fermentum eu aliquam. 
-      Felis neque posuere pharetra porttitor lacinia proin pretium. 
-      Et et pharetra tincidunt vel egestas risus sed mollis adipiscing. 
-      Lobortis risus mauris vitae pellentesque lobortis sapien. 
-      Mi convallis leo nisl pharetra quam arcu blandit. Metus nisl volutpat ut sed sit sit est. `,
+      aboutTheCase: `In this case we successfully defended our Client against the AMCON. Here we urged the Court to decline Jurisdiction to entertain AMCON's suit on the ground that the case is Statute Barred i.e caught up by the limitation Law of Lagos. The Federal High Court agreed with us and declined Jurisdiction. The Court of Appeal also agreed with us and declined jurisdiction, thereafter AMCON has gone on further Appeal to the Supreme Court of last resort.`,
       clientsNeed: `Lorem ipsum dolor sit amet consectetur. 
       Commodo pulvinar molestie pellentesque urna libero velit porta. 
       Velit pellentesque hac gravida pellentesque est semper. 
@@ -639,23 +611,11 @@ export const caseStudies = [
   {
     id: 2,
     img: caseStudies2,
-    title: `The Case of William Accused Corruption of Money at Gtb Bank`,
+    title: `APATA V. HON MINISTER OF FCT & ANOR Reported as (2023) LPELR-60495(CA)`,
     case: {
-      aboutTheCase: `Lorem ipsum dolor sit amet consectetur. 
-      Commodo pulvinar molestie pellentesque urna libero velit porta. 
-      Velit pellentesque hac gravida pellentesque est semper. 
-      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. Proin ac a cursus praesent. 
-      Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
-      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
-      Dolor elit nunc et purus quam amet laoreet eu risus.
-      Cum mattis mollis odio gravida adipiscing. 
-      Facilisis scelerisque non lacinia tincidunt faucibus tortor vel. 
-      Erat risus etiam quam pretium ornare. Semper orci arcu pulvinar adipiscing pretium. 
-      Erat facilisis dis arcu senectus sit mi fermentum eu aliquam. 
-      Felis neque posuere pharetra porttitor lacinia proin pretium. 
-      Et et pharetra tincidunt vel egestas risus sed mollis adipiscing. 
-      Lobortis risus mauris vitae pellentesque lobortis sapien. 
-      Mi convallis leo nisl pharetra quam arcu blandit. Metus nisl volutpat ut sed sit sit est. `,
+      aboutTheCase: `The subject matter of this case is the sale of Federal Government Property in Abuja FCT. The Plaintiff/Appellant alleged that the contract he signed with the Minister of FCT was unlawfully terminated before the Minister sold the property to our Client.
+      We successfully defended our Client's interest by urging the Court to decline Jurisdiction to entertain the case on the ground that the Writ of Summons that initiated the case was not signed by either the Litigant or his Legal Practitioners. The High Court and the Court of Appeal agreed with us and declined Jurisdiction to entertain the case. The Appellant has gone on Final Appeal to the Supreme Court.
+      `,
       clientsNeed: `Lorem ipsum dolor sit amet consectetur. 
       Commodo pulvinar molestie pellentesque urna libero velit porta. 
       Velit pellentesque hac gravida pellentesque est semper. 
@@ -698,23 +658,9 @@ export const caseStudies = [
   {
     id: 3,
     img: caseStudies2,
-    title: `The Case of William Accused Corruption of Money at Gtb Bank`,
+    title: `EFCC V. AJAYI TOPE SAMUEL (Unreported-Court of Appeal Kano`,
     case: {
-      aboutTheCase: `Lorem ipsum dolor sit amet consectetur. 
-      Commodo pulvinar molestie pellentesque urna libero velit porta. 
-      Velit pellentesque hac gravida pellentesque est semper. 
-      Duis lectus gravida ultricies eleifend in pharetra faucibus orci sem. Proin ac a cursus praesent. 
-      Malesuada risus amet nunc posuere rhoncus accumsan congue id dolor. 
-      Convallis maecenas sed in pellentesque. Diam tristique semper mauris dolor amet. 
-      Dolor elit nunc et purus quam amet laoreet eu risus.
-      Cum mattis mollis odio gravida adipiscing. 
-      Facilisis scelerisque non lacinia tincidunt faucibus tortor vel. 
-      Erat risus etiam quam pretium ornare. Semper orci arcu pulvinar adipiscing pretium. 
-      Erat facilisis dis arcu senectus sit mi fermentum eu aliquam. 
-      Felis neque posuere pharetra porttitor lacinia proin pretium. 
-      Et et pharetra tincidunt vel egestas risus sed mollis adipiscing. 
-      Lobortis risus mauris vitae pellentesque lobortis sapien. 
-      Mi convallis leo nisl pharetra quam arcu blandit. Metus nisl volutpat ut sed sit sit est. `,
+      aboutTheCase: `Here, we successfully defended our Client that was unlawfully arrested and prosecuted by the EFCC under the EFCC Act, The Cybercrimes Act and the Advanced Fee Fraud Act upon the petition and instigation of Multichoice Nigeria. We successfully defended our Clients and they were discharged and acquitted of all the 3 Counts charge by both the Federal High Court and the Court of Appeal Kano. We have since sued Multichoice Nigeria who is the Nominal Complainant claiming damages of 1 Billion Naira for Malicious prosecution`,
       clientsNeed: `Lorem ipsum dolor sit amet consectetur. 
       Commodo pulvinar molestie pellentesque urna libero velit porta. 
       Velit pellentesque hac gravida pellentesque est semper. 
