@@ -38,8 +38,7 @@ const Home = () => {
       <OurPracticeArea />
       {/* case studies */}
       <CustomHeader
-        name="Case Studies"
-        title="Case Studies"
+        title="Client Case Portfolio: "
         description=" Demonstrating Our Expertise"
       >
         <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-16 mb-20 lg:mb-20 ">

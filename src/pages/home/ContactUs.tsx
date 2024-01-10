@@ -66,9 +66,10 @@ const ContactUs = () => {
           solution!
         </motion.h2>
         <p className=" font-playFairDisplay font-normal text-center lg:text-start text-sm md:text-base text-[#D7D7D7] pb-6">
-          There are of Lorem Ipsum available, but the majority have alteration
-          in some form, by injected oir which don't look even slightly
-          believable.
+          Our dedicated team of legal professionals is poised and ready to
+          provide you with the finest solutions. With a commitment to
+          excellence, we stand prepared to address your legal needs and deliver
+          optimal outcomes tailored to your unique circumstances.
         </p>
 
         <Button
