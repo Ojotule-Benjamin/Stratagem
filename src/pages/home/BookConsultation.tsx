@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Button from "../../components/Button";
 import dash from "../../assets/svgs/dash.svg";
+import { motion } from "framer-motion";
 
 type FormDataProps = {
   firstName: string;
@@ -29,7 +30,7 @@ const BookConsultation = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     // Use formData in your desired way
-    console.log(formData);
+    // console.log(formData);
     // Clear the form after submission
     setFormData({
       firstName: "",
@@ -43,7 +44,7 @@ const BookConsultation = () => {
   return (
     <div className=" w-full h-auto bg-secondary_color lg:px-32 py-7 lg:py-14 flex flex-col lg:flex-row items-start justify-start">
       {/* left */}
-      <div className=" w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:items-start lg:justify-start ">
+      <motion.div className=" w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:items-start lg:justify-start ">
         <p className=" font-playFairDisplay font-bold text-base text-text_color_white ">
           Stratagem LP
         </p>
@@ -76,10 +77,10 @@ const BookConsultation = () => {
             </p>
           </div>
         </div>
-      </div>
+      </motion.div>
 
       {/* right */}
-      <div className=" w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:items-start lg:justify-start">
+      <motion.div className=" w-full lg:w-1/2 h-full flex flex-col items-center justify-center lg:items-start lg:justify-start">
         <p className=" font-playFairDisplay font-bold text-base text-text_color_white ">
           Need a Lawyer
         </p>
@@ -142,7 +143,7 @@ const BookConsultation = () => {
             />
           </div>
         </form>
-      </div>
+      </motion.div>
     </div>
   );
 };
