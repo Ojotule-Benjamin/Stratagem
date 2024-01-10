@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "./Hero";
-import AboutUs from "../../components/aboutUs/AboutUs";
+import AboutUs from "./AboutUs";
 import BookConsultation from "./BookConsultation";
 import OurTeam from "../../components/ourTeam/OurTeam";
 import OurPracticeArea from "../../components/ourPracticeArea/OurPracticeArea";

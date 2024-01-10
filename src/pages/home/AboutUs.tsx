@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
-import Button from "../Button";
+import Button from "../../components/Button";
 import arrow from "../../assets/svgs/arrow.svg";
-// import Dedication from "../Dedication";
 import { REGULAR_PATHS } from "../../route/paths";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -89,13 +88,12 @@ const AboutUs = () => {
         variants={variants}
         className="  bg-[#1E293B] w-full lg:w-1/2 px-0 md:px-20 lg:px-0 h-full flex flex-col items-center justify-center lg:items-center lg:justify-center "
       >
-        {/* <Dedication /> */}
         <div
           ref={container}
           id="animation-container "
           className=" w-full h-4/5"
         ></div>
-        <h2 className=" font-montserrat font-bold text-center text-white text-4xl ">
+        <h2 className=" font-montserrat font-bold text-center text-white text-xl md:text-4xl ">
           {firmValues[currentIndex]}
         </h2>
       </motion.div>
@@ -105,7 +103,7 @@ const AboutUs = () => {
         <p className=" font-playFairDisplay font-bold text-base text-secondary_color">
           About Us
         </p>
-        <h3 className=" font-playFairDisplay font-bold text-lg md:text-4xl text-center lg:text-start text-primary_color  pr-0 lg:pr-20">
+        <h3 className=" font-playFairDisplay font-bold text-2xl md:text-4xl text-center lg:text-start text-primary_color  pr-0 lg:pr-20">
           We are a Nigerian based law firm focused on excellence.
         </h3>
         <p className=" w-full font-montserrat font-normal text-sm md:text-base text-justify">

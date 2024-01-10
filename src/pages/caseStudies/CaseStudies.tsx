@@ -27,7 +27,7 @@ const CaseStudies = () => {
     <div className=" w-full flex flex-col items-center justify-center">
       <CustomHero title="CASE STUDIES" className="bg-hero-case-study" />
       <div className=" w-full flex items-center justify-center flex-wrap px-5 gap-10 md:gap-16 mb-7  mt-[38px] lg:mt-[77px] bg-text_color_white ">
-        {caseStudies.map((caseStudy) => (
+        {caseStudies.slice(startIndex, endIndex).map((caseStudy) => (
           <CaseStudiesCard
             key={caseStudy.id}
             title={caseStudy.title}
