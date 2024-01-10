@@ -25,6 +25,7 @@ module.exports = {
         "hero-case-study": "url('./assets/svgs/hero4.svg')",
         "hero-blog": "url('./assets/svgs/hero5.svg')",
       }),
+
       // screens: {
       //   xs: "480px",
       //   sm: "768px",

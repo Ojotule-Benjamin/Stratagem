@@ -51,7 +51,7 @@ const BlogPostCard: React.FC<blogPostCardProps> = ({
         <Button
           onClick={onClick}
           text="Read More"
-          className=" w-[183px] h-10 font-outfit font-medium text-sm bg-secondary_color text-text_color_white hover:bg-primary_color hover:text-secondary_color"
+          className=" w-[11.4rem] h-10 font-outfit font-medium text-sm bg-secondary_color text-text_color_white hover:bg-primary_color hover:text-secondary_color"
         />
       </div>
     </motion.div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 type OurTeamMemberCardProps = {
   id: number;
@@ -14,7 +15,11 @@ const OurTeamMemberCard: React.FC<OurTeamMemberCardProps> = ({
   role,
 }) => {
   return (
-    <div
+    <motion.div
+      initial={{ scale: 0.5, y: 50 }}
+      whileInView={{ opacity: 1, scale: 1, y: 0 }}
+      transition={{ duration: 2 }}
+      viewport={{ once: true }}
       className="basis-64 grow h-full flex items-center justify-center mb-20 relative"
       key={id}
     >
@@ -29,7 +34,7 @@ const OurTeamMemberCard: React.FC<OurTeamMemberCardProps> = ({
           </p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -25,13 +25,7 @@ const OurTeam = () => {
         >
           Professional lawyers and advisors with more experience
         </motion.h3>
-        <motion.div
-          initial={{ scale: 0.5, y: 50 }}
-          whileInView={{ opacity: 1, scale: 1, y: 0 }}
-          transition={{ duration: 2 }}
-          viewport={{ once: true }}
-          className=" w-full h-auto flex items-center justify-center px-4 lg:px-0 flex-wrap gap-3 lg:gap-5 mt-10 lg:mt-16"
-        >
+        <div className=" w-full h-auto flex items-center justify-center px-4 lg:px-0 flex-wrap gap-3 lg:gap-5 mt-10 lg:mt-16">
           {/* team card */}
           {teamMembers.slice(0, 4).map((teamMember) => {
             return (
@@ -44,7 +38,7 @@ const OurTeam = () => {
               />
             );
           })}
-        </motion.div>
+        </div>
       </div>
     </div>
   );
