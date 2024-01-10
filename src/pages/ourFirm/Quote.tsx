@@ -13,10 +13,12 @@ const Quote = () => {
 
         <div className="container w-full h-72 p-20 flex flex-col items-start justify-start bg-secondary_color relative -left-12">
           <h3 className="second font-montserrat font-normal text-xl text-white">
-            Our clients are at the heart of our work. This firm’s unique
-            strength lies in incorporating our culture of inclusivity into our
-            work to ensure success for our clients. This mindset is the force
-            behind our strength and the reason I’m proud to call DLA Piper home.
+            At Stratagem, we're all about pursuing justice by combining legal
+            expertise and innovative solutions. We see our clients as
+            individuals with unique needs and goals, not just cases. With
+            unwavering dedication, we protect their interests, guiding them
+            through legal complexities while maintaining the highest ethical
+            standards.
           </h3>
           <h1 className=" font-montserrat font-bold text-base ml-10 mt-4 text-white">
             Ejiga Benjamin Ochuma,{" "}

@@ -33,25 +33,22 @@ const WelcomeMessage = () => {
           </h3>
         </div>
         <p className=" px-0 lg:px-0 w-full font-montserrat font-normal text-base text-justify">
-          Lorem ipsum dolor sit amet consectetur. Commodo pulvinar molestie
-          pellentesque urna libero velit porta. Velit pellentesque hac gravida
-          pellentesque est semper. Duis lectus gravida ultricies eleifend in
-          pharetra faucibus orci sem. Proin ac a cursus praesent. Malesuada
-          risus amet nunc posuere rhoncus accumsan congue id dolor. Convallis
-          maecenas sed in pellentesque. Diam tristique semper mauris dolor amet.
-          Dolor elit nunc et purus quam amet laoreet eu risus.Cum mattis mollis
-          odio gravida adipiscing. Facilisis scelerisque non lacinia tincidunt
-          faucibus tortor vel.
+          Our vision is to be an internationally premier law firm of great
+          repute. Our aspiration is held strong in the three major thrusts of
+          our strategy:
           <br />
           <br />
-          Augue tristique quis fringilla nisl quam nisi. Erat pellentesque
-          elementum consequat quis volutpat diam praesent molestie. Molestie
-          scelerisque eleifend eu amet quam vitae fusce aliquam ornare. Accumsan
-          est ut at tristique arcu. Semper lectus vulputate volutpat consectetur
-          gravida ac gravida. Sem placerat pellentesque turpis tellus etiam
-          porttitor sed. Scelerisque condimentum volutpat tempus lobortis.
-          Accumsan dui felis turpis elementum. Leo nibh magnis sociis diam purus
-          dui. Amet nulla urna curabitur
+          Making sure that our practice is in the right perspective in terms of
+          what we offer clients – by being an industry leader in all major areas
+          of legal advisory and legal services.
+          <br />
+          <br />
+          Focusing on our clients so that we develop successful relationships
+          with them and become their preferred advisers over the long term.
+          <br />
+          <br />
+          Attracting and retaining the best people by developing and nurturing
+          the talent we have and making the firm the best place to work.
         </p>
       </div>
     </div>

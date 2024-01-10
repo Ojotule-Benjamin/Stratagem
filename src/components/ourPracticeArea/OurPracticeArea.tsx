@@ -75,7 +75,7 @@ const OurPracticeArea = () => {
         <Button
           onClick={viewMorePracticeAreas}
           text="View More"
-          className="w-40 h-11 mt-20 font-outfit font-medium text-sm text-text_color_white bg-primary_color hover:text-secondary_color"
+          className="w-40 h-11 mt-10 font-outfit font-medium text-sm text-text_color_white bg-primary_color hover:text-secondary_color"
         />
       )}
       {!isHomePage && (

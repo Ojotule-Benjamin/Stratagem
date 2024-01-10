@@ -23,7 +23,7 @@ const Navbar = () => {
               Stratagem
             </h1>
             <p className=" text-text_color_blackII font-playFairDisplay font-normal text-xl md:text-2xl lg:text-3xl leading-9">
-              Legal Practice
+              Legal Practioner
             </p>
           </div>
         </div>

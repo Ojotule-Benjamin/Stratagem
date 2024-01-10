@@ -3,7 +3,7 @@ import arrow from "../../assets/svgs/arrow.svg";
 import Button from "../../components/Button";
 import { useNavigate } from "react-router-dom";
 import { REGULAR_PATHS } from "../../route/paths";
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   const { CASE_STUDIES } = REGULAR_PATHS;
