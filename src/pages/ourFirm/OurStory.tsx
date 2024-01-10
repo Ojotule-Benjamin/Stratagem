@@ -36,28 +36,24 @@ const OurStory = () => {
       {/* right */}
       <div className="w-full h-full flex flex-col items-center lg:items-start justify-center">
         <h3 className=" font-playFairDisplay font-bold text-2xl text-primary_color">
-          Our Story
+          Our Values
         </h3>
         <p className=" font-montserrat font-normal text-base text-text_color_blackII text-center lg:text-justify">
-          Lorem ipsum dolor sit amet consectetur. Commodo pulvinar molestie
-          pellentesque urna libero velit porta. Velit pellentesque hac gravida
-          pellentesque est semper. Duis lectus gravida ultricies eleifend in
-          pharetra faucibus orci sem. Proin ac a cursus praesent. Malesuada
-          risus amet nunc posuere rhoncus accumsan congue id dolor. Convallis
-          maecenas sed in pellentesque. Diam tristique semper mauris dolor amet.
-          Dolor elit nunc purus quam amet laoreet eu risus.Cum mattis mollis
-          odio gravida adipiscing. Facilisis scelerisque non lacinia tincidunt
-          faucibus tortor vel.
-          <br />
-          <br />
-          Augue tristique quis fringilla nisl quam nisi. Erat pellentesque
-          elementum consequat quis volutpat diam praesent molestie. Molestie
-          scelerisque eleifend eu amet quam vitae fusce aliquam ornare. Accumsan
-          est ut at tristique arcu. Semper lectus vulputate volutpat consectetur
-          gravida ac gravida. Sem placerat pellentesque turpis tellus etiam
-          porttitor sed. Scelerisque condimentum volutpat tempus lobortis.
-          Accumsan dui felis turpis elementum. Leo nibh magnis sociis diam purus
-          dui. Amet nulla urna curabitur{" "}
+          The philosophy of our firm is encapsulated by our core values:
+          Excellence: We are devoted to achieving excellence in every facet of
+          our endeavors. Integrity: We embrace openness and honesty in all
+          aspects of our operations. Commitment and Focus: We are unwaveringly
+          dedicated to meeting our clients' needs and ensuring the future
+          success of the firm. Support and Loyalty: We take pride in supporting
+          the success of both our clients and the firm. Enjoyment: We aspire to
+          create an environment where everyone finds joy in their work. As we
+          expand, we are resolute in maintaining our informal and friendly
+          approach. Furthermore, we believe in continual investment in our
+          capabilities, providing tangible value for our clients and enhancing
+          the effectiveness and enjoyment of our lawyers' work. Our commitment
+          extends to ongoing training and staying abreast of developments,
+          fostering a conducive working environment for our clients, and
+          investing accordingly.
         </p>
       </div>
     </div>

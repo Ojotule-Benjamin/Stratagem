@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Button from "../Button";
 import arrow from "../../assets/svgs/arrow.svg";
-import Dedication from "../Dedication";
+// import Dedication from "../Dedication";
 import { REGULAR_PATHS } from "../../route/paths";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
+import lottie, { AnimationItem } from "lottie-web";
+import Animation from "../../assets/lottie/Animation.json";
 
 const variants = {
   initial: {
@@ -24,29 +26,78 @@ const variants = {
 
 const AboutUs = () => {
   const { OUR_FIRM } = REGULAR_PATHS;
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const firmValues = [
+    "Dedication",
+    "Accountability",
+    "Integrity",
+    "Excellence",
+    "Expertise",
+  ];
 
   const navigate = useNavigate();
+  const container = useRef<HTMLDivElement | null>(null);
 
   const handleNavigation = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
     navigate(OUR_FIRM);
   };
 
+  useEffect(() => {
+    const interval = setInterval(
+      () =>
+        setCurrentIndex((prev) =>
+          prev === firmValues.length - 1 ? 0 : prev + 1
+        ),
+      5000
+    );
+    return () => clearInterval(interval);
+  });
+
+  useEffect(() => {
+    let animation: AnimationItem | null = null;
+
+    if (container.current) {
+      animation = lottie.loadAnimation({
+        animationData: Animation,
+        autoplay: true,
+        container: container.current,
+        loop: true,
+        renderer: "svg",
+      });
+    }
+
+    // Cleanup on unmount
+    return () => {
+      if (animation) {
+        animation.destroy();
+      }
+    };
+  }, []);
+
   return (
     <motion.div
       variants={variants}
       initial="initial"
-      //animate="animate"
       whileInView="animate"
       viewport={{ once: true }}
-      className="w-full h-auto lg:h-[700px] my-8 bg-text_color_white p-5 md:p-12 lg:p-16 flex flex-col lg:flex-row items-center justify-center gap-5"
+      className=" w-full h-auto lg:h-[700px] my-8 bg-text_color_white p-5 md:p-12 lg:p-16 flex flex-col lg:flex-row items-center justify-center gap-5"
     >
       {/* left */}
       <motion.div
         variants={variants}
-        className=" w-full lg:w-1/2 px-0 md:px-20 lg:px-0 h-full flex flex-col items-center justify-center lg:items-start lg:justify-start "
+        className="  bg-[#1E293B] w-full lg:w-1/2 px-0 md:px-20 lg:px-0 h-full flex flex-col items-center justify-center lg:items-center lg:justify-center "
       >
-        <Dedication />
+        {/* <Dedication /> */}
+        <div
+          ref={container}
+          id="animation-container "
+          className=" w-full h-4/5"
+        ></div>
+        <h2 className=" font-montserrat font-bold text-center text-white text-4xl ">
+          {firmValues[currentIndex]}
+        </h2>
       </motion.div>
 
       {/* right */}

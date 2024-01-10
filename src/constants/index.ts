@@ -67,7 +67,8 @@ export const teamMembers = [
   {
     id: 2,
     img: team_member_3,
-    name: "Oyibo Stephen Oyibo Esq.",
+    name: "Opaluwa George",
+
     role: "Associate",
     linkedIn: "https://www.google.com",
     facebook: "https://www.google.com",
@@ -76,7 +77,7 @@ export const teamMembers = [
   {
     id: 3,
     img: team_member_4,
-    name: "Opaluwa George",
+    name: "Oyibo Stephen Oyibo Esq.",
     role: "Partner",
     linkedIn: "https://www.google.com",
     facebook: "https://www.google.com",

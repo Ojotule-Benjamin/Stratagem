@@ -32,7 +32,7 @@ const Home = () => {
   };
 
   return (
-    <div>
+    <div className="w-full h-full overflow-y-hidden">
       <Hero />
       <AboutUs />
       <OurPracticeArea />
@@ -42,7 +42,7 @@ const Home = () => {
         title="Case Studies"
         description=" Demonstrating Our Expertise"
       >
-        <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-16 mb-20 lg:mb-44 ">
+        <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-16 mb-20 lg:mb-20 ">
           {caseStudies.slice(0, 2).map((caseStudy) => (
             <CaseStudiesCard
               key={caseStudy.id}

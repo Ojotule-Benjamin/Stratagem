@@ -14,7 +14,7 @@ const CustomHeader: React.FC<CustomHeaderProps> = ({
   children,
 }) => {
   return (
-    <div className=" w-full h-auto bg-text_color_white mt-10 lg:mt-20 mb-6 lg:mb-7 flex flex-col items-center justify-center">
+    <div className=" w-full h-auto bg-text_color_white mt-10 lg:mt-20 mb-6 lg:mb-0 flex flex-col items-center justify-center">
       <h6 className=" font-montserrat font-normal text-base lg:text-lg text-[#382E3A]">
         {name}
       </h6>
