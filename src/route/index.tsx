@@ -13,6 +13,12 @@ import Contact from "../pages/contact/Contact";
 import Blog from "../pages/blog/Blog";
 import NotFound from "../pages/notFound/index";
 import BlogPost from "../pages/blogPost/BlogPost";
+import StratagemAdmin from "../pages/backend/stratagemAdmin/index";
+import RegisterPage from "../pages/backend/register/index";
+import LoginPage from "../pages/backend/login/index";
+import BackendNavBar from "../components/backend/BackendNavBar";
+import BlogContent from "../pages/backend/blogContent/index";
+import CaseStudiesPost from "../pages/backend/caseStudiesPost/index";
 
 export const AppRouter = () => {
   //paths
@@ -26,17 +32,30 @@ export const AppRouter = () => {
     PRACTICE_AREA,
     CASE_STUDY,
     BLOG_POST,
+    REGISTER,
+    LOGIN,
+    STRATAGEM_ADMIN,
+    BLOG_CONTENT,
+    CASE_STUDIES_POST,
   } = REGULAR_PATHS;
 
-  //LAYOUT
+  //LAYOUT FOR FRONT-END
   const Layout = () => {
     return (
       <div>
         <Navbar />
-
         <Outlet />
-
         <Footer />
+      </div>
+    );
+  };
+
+  //LAYOUT FOR FRONT-END
+  const BackendLayout = () => {
+    return (
+      <div>
+        <BackendNavBar />
+        <Outlet />
       </div>
     );
   };
@@ -86,6 +105,32 @@ export const AppRouter = () => {
         {
           path: "*",
           element: <NotFound />,
+        },
+      ],
+    },
+    {
+      path: STRATAGEM_ADMIN,
+      element: <BackendLayout />,
+      children: [
+        {
+          path: STRATAGEM_ADMIN,
+          element: <StratagemAdmin />,
+        },
+        {
+          path: REGISTER,
+          element: <RegisterPage />,
+        },
+        {
+          path: LOGIN,
+          element: <LoginPage />,
+        },
+        {
+          path: BLOG_CONTENT,
+          element: <BlogContent />,
+        },
+        {
+          path: CASE_STUDIES_POST,
+          element: <CaseStudiesPost />,
         },
       ],
     },

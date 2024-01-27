@@ -134,7 +134,7 @@ const Contact = () => {
                   href="mailto:info@stratagemlp.com"
                   className=" font-lg text-[#37393F]"
                 >
-                  info@stratagemlp.com
+                  legal@stratagemlp.com
                 </a>
               </div>
             </div>

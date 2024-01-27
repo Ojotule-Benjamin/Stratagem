@@ -81,7 +81,7 @@ const AboutUs = () => {
       initial="initial"
       whileInView="animate"
       viewport={{ once: true }}
-      className=" w-full h-auto lg:h-[700px] my-8 bg-text_color_white p-5 md:p-12 lg:p-16 flex flex-col lg:flex-row items-center justify-center gap-5"
+      className={`w-full h-auto lg:h-[700px] my-8 bg-text_color_white p-5 md:p-12 lg:p-16 flex flex-col lg:flex-row items-center justify-center gap-5`}
     >
       {/* left */}
       <motion.div
