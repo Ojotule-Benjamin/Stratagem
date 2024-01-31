@@ -108,7 +108,7 @@ const Footer = () => {
             </div>
             <div className=" flex items-center justify-center gap-3">
               <img src={email} alt="email icon" />
-              <a href="mailto:legal@gmail.com">legal@gmail.com</a>
+              <a href="mailto:legal@stratagemlp.com">legal@stratagemlp.com</a>
             </div>
           </div>
         </div>
