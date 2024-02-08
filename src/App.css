@@ -5,7 +5,7 @@ select {
   /* background-position-x: 244px; */
 }
 
-.second {
+/* .second {
   quotes: "“" "”";
   position: relative;
   padding-left: 40px;
@@ -31,4 +31,4 @@ select {
 .second::before,
 .second::after {
   color: #e9b903;
-}
+} */
